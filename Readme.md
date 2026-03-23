@@ -62,7 +62,7 @@ sudo apt-get install ros-jazzy-clearpath-simulator
  source install/setup.bash
  ```
 ---
-## Important before simulating: Do the following in order everything to work properly everytime you open the terminal 
+## !!Important before simulating: Do the following once. By this way everything will work properly everytime you open the terminal without having to source ROS2 again and again. 
 
 1: open bashrc by typing 
 ```bash
