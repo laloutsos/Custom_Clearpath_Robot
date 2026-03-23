@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_c.c"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/__init__.py"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_display_status.py"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_display_status_s.c"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_drive.py"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_drive_feedback.py"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_drive_feedback_s.c"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_drive_s.c"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_fans.py"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_fans_s.c"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_feedback.py"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_feedback_s.c"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_lights.py"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_lights_s.c"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_pinout_command.py"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_pinout_command_s.c"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_pinout_state.py"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_pinout_state_s.c"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_power.py"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_power_s.c"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_rgb.py"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_rgb_s.c"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_status.py"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_status_s.c"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_stop_status.py"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_stop_status_s.c"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_temperature.py"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/msg/_temperature_s.c"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/srv/__init__.py"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/srv/_configure_mcu.py"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/srv/_configure_mcu_s.c"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/srv/_set_pinout.py"
+  "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_py/clearpath_platform_msgs/srv/_set_pinout_s.c"
+  "CMakeFiles/clearpath_platform_msgs__py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/clearpath_platform_msgs__py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

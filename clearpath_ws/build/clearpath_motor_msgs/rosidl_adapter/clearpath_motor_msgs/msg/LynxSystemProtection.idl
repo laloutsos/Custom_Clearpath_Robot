@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from clearpath_motor_msgs/msg/LynxSystemProtection.msg
+// generated code does not contain a copyright notice
+
+#include "clearpath_motor_msgs/msg/LynxMotorProtection.idl"
+#include "std_msgs/msg/Header.idl"
+
+module clearpath_motor_msgs {
+  module msg {
+    struct LynxSystemProtection {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "System state based on highest protection state of motors")
+      uint8 system_state;
+
+      @verbatim (language="comment", text=
+        "Individual motor protection states")
+      sequence<clearpath_motor_msgs::msg::LynxMotorProtection> motor_states;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+/home/robolab/clearpath_ws/build/clearpath_diagnostics/ament_cmake_core/clearpath_diagnosticsConfig.cmake

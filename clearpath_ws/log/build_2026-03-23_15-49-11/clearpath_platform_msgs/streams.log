@@ -1,0 +1,396 @@
+[0.025s] Invoking command in '/home/robolab/clearpath_ws/build/clearpath_platform_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robolab/clearpath_ws/src/clearpath_msgs/clearpath_platform_msgs -DCMAKE_INSTALL_PREFIX=/home/robolab/clearpath_ws/install/clearpath_platform_msgs
+[0.042s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.076s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.252s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.286s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.345s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.361s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.396s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.441s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.510s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.523s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.269s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.599s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.712s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.714s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.359s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.414s] -- Configuring done (2.4s)
+[2.504s] -- Generating done (0.1s)
+[2.521s] -- Build files have been written to: /home/robolab/clearpath_ws/build/clearpath_platform_msgs
+[2.685s] Invoked command in '/home/robolab/clearpath_ws/build/clearpath_platform_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robolab/clearpath_ws/src/clearpath_msgs/clearpath_platform_msgs -DCMAKE_INSTALL_PREFIX=/home/robolab/clearpath_ws/install/clearpath_platform_msgs
+[2.686s] Invoking command in '/home/robolab/clearpath_ws/build/clearpath_platform_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robolab/clearpath_ws/build/clearpath_platform_msgs -- -j4 -l4
+[2.812s] [  0%] Built target clearpath_platform_msgs__rosidl_generator_type_description
+[2.874s] [  0%] Built target ament_cmake_python_symlink_clearpath_platform_msgs
+[2.921s] [ 27%] Built target clearpath_platform_msgs__rosidl_generator_c
+[3.256s] running egg_info
+[3.286s] writing clearpath_platform_msgs.egg-info/PKG-INFO
+[3.286s] writing dependency_links to clearpath_platform_msgs.egg-info/dependency_links.txt
+[3.286s] writing top-level names to clearpath_platform_msgs.egg-info/top_level.txt
+[3.379s] reading manifest file 'clearpath_platform_msgs.egg-info/SOURCES.txt'
+[3.380s] writing manifest file 'clearpath_platform_msgs.egg-info/SOURCES.txt'
+[3.431s] [ 27%] Built target ament_cmake_python_build_clearpath_platform_msgs_egg
+[3.472s] [ 36%] Built target clearpath_platform_msgs__rosidl_typesupport_introspection_c
+[3.510s] [ 46%] Built target clearpath_platform_msgs__rosidl_typesupport_c
+[3.569s] [ 56%] Built target clearpath_platform_msgs__rosidl_typesupport_fastrtps_c
+[3.608s] [ 56%] Built target clearpath_platform_msgs__cpp
+[3.658s] [ 66%] Built target clearpath_platform_msgs__rosidl_typesupport_cpp
+[3.706s] [ 76%] Built target clearpath_platform_msgs__rosidl_typesupport_introspection_cpp
+[3.763s] [ 86%] Built target clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp
+[3.794s] [ 86%] Built target clearpath_platform_msgs
+[3.836s] [ 87%] Built target clearpath_platform_msgs__py
+[3.890s] [ 96%] Built target clearpath_platform_msgs__rosidl_generator_py
+[3.918s] [ 97%] Built target clearpath_platform_msgs_s__rosidl_typesupport_fastrtps_c
+[3.956s] [ 98%] Built target clearpath_platform_msgs_s__rosidl_typesupport_c
+[3.983s] [100%] Built target clearpath_platform_msgs_s__rosidl_typesupport_introspection_c
+[4.001s] Invoked command in '/home/robolab/clearpath_ws/build/clearpath_platform_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robolab/clearpath_ws/build/clearpath_platform_msgs -- -j4 -l4
+[4.001s] Invoking command in '/home/robolab/clearpath_ws/build/clearpath_platform_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robolab/clearpath_ws/build/clearpath_platform_msgs
+[4.014s] -- Install configuration: ""
+[4.014s] -- Execute custom install script
+[4.014s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/ament_index/resource_index/rosidl_interfaces/clearpath_platform_msgs
+[4.015s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/DisplayStatus.json
+[4.015s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Drive.json
+[4.017s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/DriveFeedback.json
+[4.018s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Fans.json
+[4.018s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Feedback.json
+[4.018s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Lights.json
+[4.018s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/PinoutCommand.json
+[4.018s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/PinoutState.json
+[4.018s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Power.json
+[4.018s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/RGB.json
+[4.018s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Status.json
+[4.018s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/StopStatus.json
+[4.018s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Temperature.json
+[4.018s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/srv/ConfigureMcu.json
+[4.020s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/srv/SetPinout.json
+[4.020s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/display_status__functions.h
+[4.020s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/display_status__struct.h
+[4.021s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/display_status__type_support.h
+[4.021s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__functions.h
+[4.022s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__struct.h
+[4.023s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__type_support.h
+[4.023s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__functions.h
+[4.023s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__struct.h
+[4.023s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__type_support.h
+[4.023s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__functions.h
+[4.023s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__struct.h
+[4.023s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__type_support.h
+[4.023s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__functions.h
+[4.025s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__struct.h
+[4.025s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__type_support.h
+[4.025s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__functions.h
+[4.025s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__struct.h
+[4.025s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__type_support.h
+[4.025s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_command__functions.h
+[4.025s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_command__struct.h
+[4.025s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_command__type_support.h
+[4.025s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_state__functions.h
+[4.026s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_state__struct.h
+[4.026s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_state__type_support.h
+[4.026s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__functions.h
+[4.027s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__struct.h
+[4.027s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__type_support.h
+[4.027s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__functions.h
+[4.028s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__struct.h
+[4.028s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__type_support.h
+[4.028s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__functions.h
+[4.029s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__struct.h
+[4.029s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__type_support.h
+[4.029s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__functions.h
+[4.030s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__struct.h
+[4.030s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__type_support.h
+[4.030s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/temperature__functions.h
+[4.031s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/temperature__struct.h
+[4.032s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/temperature__type_support.h
+[4.032s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/display_status.h
+[4.032s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/drive.h
+[4.032s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/drive_feedback.h
+[4.033s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/fans.h
+[4.033s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/feedback.h
+[4.033s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/lights.h
+[4.033s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/pinout_command.h
+[4.033s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/pinout_state.h
+[4.033s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/power.h
+[4.036s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rgb.h
+[4.036s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.037s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/status.h
+[4.037s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/stop_status.h
+[4.037s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/temperature.h
+[4.037s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/configure_mcu.h
+[4.037s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__functions.h
+[4.037s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__struct.h
+[4.037s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__type_support.h
+[4.037s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/set_pinout__functions.h
+[4.037s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/set_pinout__struct.h
+[4.037s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/set_pinout__type_support.h
+[4.037s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/set_pinout.h
+[4.038s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/library_path.sh
+[4.038s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/library_path.dsv
+[4.038s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/display_status__rosidl_typesupport_fastrtps_c.h
+[4.038s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__rosidl_typesupport_fastrtps_c.h
+[4.039s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__rosidl_typesupport_fastrtps_c.h
+[4.039s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__rosidl_typesupport_fastrtps_c.h
+[4.039s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_c.h
+[4.040s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__rosidl_typesupport_fastrtps_c.h
+[4.040s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_command__rosidl_typesupport_fastrtps_c.h
+[4.040s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_state__rosidl_typesupport_fastrtps_c.h
+[4.041s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__rosidl_typesupport_fastrtps_c.h
+[4.041s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__rosidl_typesupport_fastrtps_c.h
+[4.041s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+[4.042s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__rosidl_typesupport_fastrtps_c.h
+[4.042s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_c.h
+[4.042s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.042s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__rosidl_typesupport_fastrtps_c.h
+[4.043s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/set_pinout__rosidl_typesupport_fastrtps_c.h
+[4.044s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/display_status__builder.hpp
+[4.045s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/display_status__struct.hpp
+[4.045s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/display_status__traits.hpp
+[4.046s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/display_status__type_support.hpp
+[4.046s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__builder.hpp
+[4.046s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__struct.hpp
+[4.047s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__traits.hpp
+[4.047s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__type_support.hpp
+[4.047s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__builder.hpp
+[4.048s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__struct.hpp
+[4.048s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__traits.hpp
+[4.048s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__type_support.hpp
+[4.049s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__builder.hpp
+[4.049s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__struct.hpp
+[4.049s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__traits.hpp
+[4.050s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__type_support.hpp
+[4.050s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__builder.hpp
+[4.051s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__struct.hpp
+[4.051s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__traits.hpp
+[4.051s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__type_support.hpp
+[4.052s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__builder.hpp
+[4.052s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__struct.hpp
+[4.052s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__traits.hpp
+[4.053s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__type_support.hpp
+[4.053s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_command__builder.hpp
+[4.054s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_command__struct.hpp
+[4.054s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_command__traits.hpp
+[4.054s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_command__type_support.hpp
+[4.055s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_state__builder.hpp
+[4.055s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_state__struct.hpp
+[4.055s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_state__traits.hpp
+[4.056s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_state__type_support.hpp
+[4.056s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__builder.hpp
+[4.056s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__struct.hpp
+[4.057s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__traits.hpp
+[4.057s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__type_support.hpp
+[4.057s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__builder.hpp
+[4.058s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__struct.hpp
+[4.058s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__traits.hpp
+[4.058s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__type_support.hpp
+[4.059s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__builder.hpp
+[4.059s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__struct.hpp
+[4.059s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__traits.hpp
+[4.060s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__type_support.hpp
+[4.060s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__builder.hpp
+[4.060s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__struct.hpp
+[4.061s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__traits.hpp
+[4.061s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__type_support.hpp
+[4.061s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/temperature__builder.hpp
+[4.061s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/temperature__struct.hpp
+[4.062s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/temperature__traits.hpp
+[4.062s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/temperature__type_support.hpp
+[4.062s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/display_status.hpp
+[4.063s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/drive.hpp
+[4.063s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/drive_feedback.hpp
+[4.063s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/fans.hpp
+[4.064s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/feedback.hpp
+[4.064s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/lights.hpp
+[4.064s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/pinout_command.hpp
+[4.064s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/pinout_state.hpp
+[4.065s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/power.hpp
+[4.065s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rgb.hpp
+[4.065s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.066s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/status.hpp
+[4.066s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/stop_status.hpp
+[4.067s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/temperature.hpp
+[4.067s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/configure_mcu.hpp
+[4.067s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__builder.hpp
+[4.068s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__struct.hpp
+[4.068s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__traits.hpp
+[4.068s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__type_support.hpp
+[4.068s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/set_pinout__builder.hpp
+[4.069s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/set_pinout__struct.hpp
+[4.069s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/set_pinout__traits.hpp
+[4.070s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/set_pinout__type_support.hpp
+[4.071s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/set_pinout.hpp
+[4.071s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/display_status__rosidl_typesupport_fastrtps_cpp.hpp
+[4.072s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__rosidl_typesupport_fastrtps_cpp.hpp
+[4.072s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[4.072s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__rosidl_typesupport_fastrtps_cpp.hpp
+[4.073s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[4.073s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__rosidl_typesupport_fastrtps_cpp.hpp
+[4.074s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_command__rosidl_typesupport_fastrtps_cpp.hpp
+[4.074s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.074s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__rosidl_typesupport_fastrtps_cpp.hpp
+[4.074s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__rosidl_typesupport_fastrtps_cpp.hpp
+[4.075s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[4.075s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__rosidl_typesupport_fastrtps_cpp.hpp
+[4.075s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_cpp.hpp
+[4.076s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.076s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__rosidl_typesupport_fastrtps_cpp.hpp
+[4.077s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/set_pinout__rosidl_typesupport_fastrtps_cpp.hpp
+[4.077s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/display_status__rosidl_typesupport_introspection_c.h
+[4.077s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__rosidl_typesupport_introspection_c.h
+[4.078s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__rosidl_typesupport_introspection_c.h
+[4.078s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__rosidl_typesupport_introspection_c.h
+[4.079s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__rosidl_typesupport_introspection_c.h
+[4.079s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__rosidl_typesupport_introspection_c.h
+[4.079s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_command__rosidl_typesupport_introspection_c.h
+[4.079s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_state__rosidl_typesupport_introspection_c.h
+[4.080s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__rosidl_typesupport_introspection_c.h
+[4.080s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__rosidl_typesupport_introspection_c.h
+[4.081s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__rosidl_typesupport_introspection_c.h
+[4.081s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__rosidl_typesupport_introspection_c.h
+[4.081s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/temperature__rosidl_typesupport_introspection_c.h
+[4.081s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.082s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__rosidl_typesupport_introspection_c.h
+[4.083s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/set_pinout__rosidl_typesupport_introspection_c.h
+[4.084s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/display_status__rosidl_typesupport_introspection_cpp.hpp
+[4.084s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__rosidl_typesupport_introspection_cpp.hpp
+[4.085s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__rosidl_typesupport_introspection_cpp.hpp
+[4.085s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__rosidl_typesupport_introspection_cpp.hpp
+[4.085s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__rosidl_typesupport_introspection_cpp.hpp
+[4.086s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__rosidl_typesupport_introspection_cpp.hpp
+[4.086s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_command__rosidl_typesupport_introspection_cpp.hpp
+[4.086s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_state__rosidl_typesupport_introspection_cpp.hpp
+[4.087s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__rosidl_typesupport_introspection_cpp.hpp
+[4.087s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__rosidl_typesupport_introspection_cpp.hpp
+[4.088s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[4.088s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__rosidl_typesupport_introspection_cpp.hpp
+[4.088s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/temperature__rosidl_typesupport_introspection_cpp.hpp
+[4.089s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__rosidl_typesupport_introspection_cpp.hpp
+[4.089s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/set_pinout__rosidl_typesupport_introspection_cpp.hpp
+[4.090s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/pythonpath.sh
+[4.090s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/pythonpath.dsv
+[4.091s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs-2.7.0-py3.12.egg-info/PKG-INFO
+[4.091s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs-2.7.0-py3.12.egg-info/SOURCES.txt
+[4.091s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs-2.7.0-py3.12.egg-info/dependency_links.txt
+[4.092s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs-2.7.0-py3.12.egg-info/top_level.txt
+[4.093s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/__init__.py
+[4.094s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_c.c
+[4.094s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.094s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.095s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_c.so
+[4.095s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_fastrtps_c.so
+[4.095s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_introspection_c.so
+[4.096s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/__init__.py
+[4.096s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_display_status.py
+[4.096s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_display_status_s.c
+[4.097s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_drive.py
+[4.097s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_drive_feedback.py
+[4.097s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_drive_feedback_s.c
+[4.098s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_drive_s.c
+[4.098s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_fans.py
+[4.098s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_fans_s.c
+[4.099s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_feedback.py
+[4.099s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_feedback_s.c
+[4.099s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_lights.py
+[4.100s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_lights_s.c
+[4.100s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_pinout_command.py
+[4.100s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_pinout_command_s.c
+[4.101s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_pinout_state.py
+[4.101s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_pinout_state_s.c
+[4.101s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_power.py
+[4.102s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_power_s.c
+[4.102s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_rgb.py
+[4.102s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_rgb_s.c
+[4.102s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_status.py
+[4.103s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_status_s.c
+[4.103s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_stop_status.py
+[4.104s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_stop_status_s.c
+[4.104s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_temperature.py
+[4.104s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_temperature_s.c
+[4.104s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/srv/__init__.py
+[4.105s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/srv/_configure_mcu.py
+[4.105s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/srv/_configure_mcu_s.c
+[4.105s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/srv/_set_pinout.py
+[4.106s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/srv/_set_pinout_s.c
+[4.106s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_fastrtps_c.so
+[4.107s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_introspection_c.so
+[4.107s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_c.so
+[4.107s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/DisplayStatus.idl
+[4.108s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Drive.idl
+[4.108s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/DriveFeedback.idl
+[4.109s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Fans.idl
+[4.109s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Feedback.idl
+[4.109s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Lights.idl
+[4.110s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/PinoutCommand.idl
+[4.110s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/PinoutState.idl
+[4.110s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Power.idl
+[4.111s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/RGB.idl
+[4.111s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Status.idl
+[4.112s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/StopStatus.idl
+[4.112s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Temperature.idl
+[4.112s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/srv/ConfigureMcu.idl
+[4.113s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/srv/SetPinout.idl
+[4.113s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/DisplayStatus.msg
+[4.114s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Drive.msg
+[4.114s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/DriveFeedback.msg
+[4.114s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Fans.msg
+[4.115s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Feedback.msg
+[4.115s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Lights.msg
+[4.115s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/PinoutCommand.msg
+[4.117s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/PinoutState.msg
+[4.118s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Power.msg
+[4.118s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/RGB.msg
+[4.118s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Status.msg
+[4.118s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/StopStatus.msg
+[4.118s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Temperature.msg
+[4.118s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/srv/ConfigureMcu.srv
+[4.118s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/srv/SetPinout.srv
+[4.118s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/ament_index/resource_index/package_run_dependencies/clearpath_platform_msgs
+[4.118s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/ament_index/resource_index/parent_prefix_path/clearpath_platform_msgs
+[4.119s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/ament_prefix_path.sh
+[4.119s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/ament_prefix_path.dsv
+[4.119s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/path.sh
+[4.120s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/path.dsv
+[4.120s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/local_setup.bash
+[4.120s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/local_setup.sh
+[4.121s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/local_setup.zsh
+[4.121s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/local_setup.dsv
+[4.121s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/package.dsv
+[4.137s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/ament_index/resource_index/packages/clearpath_platform_msgs
+[4.138s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/rosidl_cmake-extras.cmake
+[4.138s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.138s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.138s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.138s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.140s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.140s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.140s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgsConfig.cmake
+[4.140s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgsConfig-version.cmake
+[4.142s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/package.xml
+[4.142s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_c.so
+[4.142s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_c.so
+[4.142s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.142s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_c.so
+[4.142s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_c.so
+[4.142s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_cpp.so
+[4.143s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_cpp.so
+[4.197s] Listing '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs'...
+[4.197s] Compiling '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/__init__.py'...
+[4.197s] Listing '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg'...
+[4.197s] Listing '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/srv'...
+[4.206s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_py.so
+[4.207s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_generator_cExport.cmake
+[4.207s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.208s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.208s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.209s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_generator_cppExport.cmake
+[4.209s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.209s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.209s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.209s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.209s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_cExport.cmake
+[4.209s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.209s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.210s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.210s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_cppExport.cmake
+[4.210s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.210s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_generator_pyExport.cmake
+[4.210s] -- Up-to-date: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.214s] Invoked command in '/home/robolab/clearpath_ws/build/clearpath_platform_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robolab/clearpath_ws/build/clearpath_platform_msgs

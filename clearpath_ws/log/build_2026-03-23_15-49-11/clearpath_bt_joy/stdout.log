@@ -1,0 +1,33 @@
+running develop
+Removing /home/robolab/clearpath_ws/install/clearpath_bt_joy/lib/python3.12/site-packages/clearpath-bt-joy.egg-link (link to .)
+running egg_info
+writing ../../../build/clearpath_bt_joy/clearpath_bt_joy.egg-info/PKG-INFO
+writing dependency_links to ../../../build/clearpath_bt_joy/clearpath_bt_joy.egg-info/dependency_links.txt
+writing entry points to ../../../build/clearpath_bt_joy/clearpath_bt_joy.egg-info/entry_points.txt
+writing requirements to ../../../build/clearpath_bt_joy/clearpath_bt_joy.egg-info/requires.txt
+writing top-level names to ../../../build/clearpath_bt_joy/clearpath_bt_joy.egg-info/top_level.txt
+reading manifest file '../../../build/clearpath_bt_joy/clearpath_bt_joy.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/clearpath_bt_joy/clearpath_bt_joy.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robolab/clearpath_ws/build/clearpath_bt_joy/build
+creating /home/robolab/clearpath_ws/build/clearpath_bt_joy/build/lib
+creating /home/robolab/clearpath_ws/build/clearpath_bt_joy/build/lib/clearpath_bt_joy
+copying clearpath_bt_joy/clearpath_bt_joy_cutoff_node.py -> /home/robolab/clearpath_ws/build/clearpath_bt_joy/build/lib/clearpath_bt_joy
+copying clearpath_bt_joy/__init__.py -> /home/robolab/clearpath_ws/build/clearpath_bt_joy/build/lib/clearpath_bt_joy
+running install
+running install_lib
+creating /home/robolab/clearpath_ws/install/clearpath_bt_joy/lib/python3.12/site-packages/clearpath_bt_joy
+copying /home/robolab/clearpath_ws/build/clearpath_bt_joy/build/lib/clearpath_bt_joy/clearpath_bt_joy_cutoff_node.py -> /home/robolab/clearpath_ws/install/clearpath_bt_joy/lib/python3.12/site-packages/clearpath_bt_joy
+copying /home/robolab/clearpath_ws/build/clearpath_bt_joy/build/lib/clearpath_bt_joy/__init__.py -> /home/robolab/clearpath_ws/install/clearpath_bt_joy/lib/python3.12/site-packages/clearpath_bt_joy
+byte-compiling /home/robolab/clearpath_ws/install/clearpath_bt_joy/lib/python3.12/site-packages/clearpath_bt_joy/clearpath_bt_joy_cutoff_node.py to clearpath_bt_joy_cutoff_node.cpython-312.pyc
+byte-compiling /home/robolab/clearpath_ws/install/clearpath_bt_joy/lib/python3.12/site-packages/clearpath_bt_joy/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/clearpath_bt_joy -> /home/robolab/clearpath_ws/install/clearpath_bt_joy/share/ament_index/resource_index/packages
+copying package.xml -> /home/robolab/clearpath_ws/install/clearpath_bt_joy/share/clearpath_bt_joy
+running install_egg_info
+Copying ../../../build/clearpath_bt_joy/clearpath_bt_joy.egg-info to /home/robolab/clearpath_ws/install/clearpath_bt_joy/lib/python3.12/site-packages/clearpath_bt_joy-2.9.4-py3.12.egg-info
+running install_scripts
+Installing clearpath_bt_joy_cutoff_node script to /home/robolab/clearpath_ws/install/clearpath_bt_joy/lib/clearpath_bt_joy
+writing list of installed files to '/home/robolab/clearpath_ws/build/clearpath_bt_joy/install.log'

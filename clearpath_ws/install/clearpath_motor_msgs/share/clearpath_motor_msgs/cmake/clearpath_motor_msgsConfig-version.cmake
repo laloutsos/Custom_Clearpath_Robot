@@ -1,0 +1,1 @@
+/home/robolab/clearpath_ws/build/clearpath_motor_msgs/ament_cmake_core/clearpath_motor_msgsConfig-version.cmake

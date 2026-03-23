@@ -1,0 +1,575 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found action_msgs: 2.0.3 (/opt/ros/jazzy/share/action_msgs/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done (4.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/robolab/clearpath_ws/build/clearpath_motor_msgs
+[  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  0%] Built target ament_cmake_python_symlink_clearpath_motor_msgs
+running egg_info
+creating clearpath_motor_msgs.egg-info
+writing clearpath_motor_msgs.egg-info/PKG-INFO
+writing dependency_links to clearpath_motor_msgs.egg-info/dependency_links.txt
+writing top-level names to clearpath_motor_msgs.egg-info/top_level.txt
+writing manifest file 'clearpath_motor_msgs.egg-info/SOURCES.txt'
+reading manifest file 'clearpath_motor_msgs.egg-info/SOURCES.txt'
+writing manifest file 'clearpath_motor_msgs.egg-info/SOURCES.txt'
+[  0%] Built target ament_cmake_python_build_clearpath_motor_msgs_egg
+[  0%] Built target clearpath_motor_msgs__rosidl_generator_type_description
+[  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  0%] Built target clearpath_motor_msgs__cpp
+[  1%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/action/detail/lynx_update__description.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/action/detail/lynx_calibrate__description.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/action/detail/lynx_calibrate__type_support.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/action/detail/lynx_calibrate__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/action/detail/lynx_update__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/action/detail/lynx_update__type_support.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_debug__description.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_debug__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_debug__type_support.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_feedback__description.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_feedback__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_feedback__type_support.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_motor_protection__description.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_motor_protection__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_motor_protection__type_support.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_multi_debug__description.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_multi_debug__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_multi_debug__type_support.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_multi_feedback__description.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_multi_feedback__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_multi_status__description.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_multi_feedback__type_support.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_multi_status__type_support.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_multi_status__functions.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_status__description.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_status__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_status__type_support.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_system_protection__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_system_protection__functions.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/puma_feedback__description.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/lynx_system_protection__type_support.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/puma_feedback__functions.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/puma_status__description.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/puma_feedback__type_support.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/puma_status__functions.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/puma_status__type_support.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/puma_multi_feedback__description.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/puma_multi_feedback__functions.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/puma_multi_feedback__type_support.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/puma_multi_status__description.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/puma_multi_status__functions.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_motor_msgs/msg/detail/puma_multi_status__type_support.c.o[0m
+[ 27%] [32m[1mLinking C shared library libclearpath_motor_msgs__rosidl_generator_c.so[0m
+[ 27%] Built target clearpath_motor_msgs__rosidl_generator_c
+[ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_motor_msgs/action/lynx_calibrate__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_motor_msgs/action/lynx_update__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_motor_msgs/msg/lynx_debug__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_motor_msgs/msg/lynx_feedback__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_motor_msgs/msg/lynx_motor_protection__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_motor_msgs/msg/lynx_multi_debug__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_motor_msgs/msg/lynx_multi_feedback__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_motor_msgs/msg/lynx_multi_status__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_motor_msgs/msg/lynx_status__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_motor_msgs/msg/lynx_system_protection__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_motor_msgs/msg/puma_feedback__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_motor_msgs/msg/puma_status__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_motor_msgs/msg/puma_multi_feedback__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_motor_msgs/msg/puma_multi_status__type_support.cpp.o[0m
+[ 38%] [32m[1mLinking CXX shared library libclearpath_motor_msgs__rosidl_typesupport_c.so[0m
+[ 38%] Built target clearpath_motor_msgs__rosidl_typesupport_c
+[ 39%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_motor_msgs/action/detail/dds_fastrtps/lynx_calibrate__type_support.cpp.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_motor_msgs/action/detail/lynx_calibrate__type_support.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_motor_msgs/action/detail/lynx_update__type_support.c.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_motor_msgs/msg/detail/lynx_debug__type_support.c.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_motor_msgs/msg/detail/lynx_feedback__type_support.c.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_motor_msgs/msg/detail/lynx_motor_protection__type_support.c.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_motor_msgs/msg/detail/lynx_multi_debug__type_support.c.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_motor_msgs/msg/detail/lynx_multi_feedback__type_support.c.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_motor_msgs/msg/detail/lynx_multi_status__type_support.c.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_motor_msgs/msg/detail/lynx_status__type_support.c.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_motor_msgs/msg/detail/lynx_system_protection__type_support.c.o[0m
+[ 47%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_motor_msgs/msg/detail/puma_feedback__type_support.c.o[0m
+[ 47%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_motor_msgs/msg/detail/puma_status__type_support.c.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_motor_msgs/msg/detail/puma_multi_feedback__type_support.c.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_motor_msgs/msg/detail/puma_multi_status__type_support.c.o[0m
+[ 49%] [32m[1mLinking C shared library libclearpath_motor_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 49%] Built target clearpath_motor_msgs__rosidl_typesupport_introspection_c
+[ 50%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_motor_msgs/action/detail/lynx_calibrate__type_support_c.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_motor_msgs/action/detail/dds_fastrtps/lynx_update__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_motor_msgs/action/detail/lynx_update__type_support_c.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_motor_msgs/action/detail/lynx_calibrate__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_motor_msgs/msg/detail/lynx_debug__type_support_c.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_motor_msgs/action/lynx_calibrate__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_motor_msgs/action/detail/lynx_update__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_motor_msgs/msg/detail/dds_fastrtps/lynx_debug__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_motor_msgs/msg/detail/lynx_feedback__type_support_c.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_motor_msgs/msg/detail/dds_fastrtps/lynx_feedback__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_motor_msgs/action/lynx_update__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_motor_msgs/msg/detail/lynx_motor_protection__type_support_c.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_motor_msgs/msg/detail/lynx_debug__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_motor_msgs/msg/detail/dds_fastrtps/lynx_motor_protection__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_motor_msgs/msg/detail/lynx_multi_debug__type_support_c.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_motor_msgs/msg/detail/lynx_feedback__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_motor_msgs/msg/lynx_debug__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_motor_msgs/msg/detail/lynx_motor_protection__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_motor_msgs/msg/detail/dds_fastrtps/lynx_multi_debug__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_motor_msgs/msg/detail/lynx_multi_feedback__type_support_c.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_motor_msgs/msg/lynx_feedback__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_motor_msgs/msg/detail/lynx_multi_debug__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_motor_msgs/msg/detail/lynx_multi_status__type_support_c.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_motor_msgs/msg/detail/dds_fastrtps/lynx_multi_feedback__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_motor_msgs/msg/lynx_motor_protection__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_motor_msgs/msg/detail/lynx_multi_feedback__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_motor_msgs/msg/lynx_multi_debug__type_support.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_motor_msgs/msg/detail/dds_fastrtps/lynx_multi_status__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_motor_msgs/msg/detail/lynx_status__type_support_c.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_motor_msgs/msg/detail/lynx_multi_status__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_motor_msgs/msg/lynx_multi_feedback__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_motor_msgs/msg/detail/lynx_status__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_motor_msgs/msg/detail/dds_fastrtps/lynx_status__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_motor_msgs/msg/lynx_multi_status__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_motor_msgs/msg/detail/lynx_system_protection__type_support_c.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_motor_msgs/msg/detail/lynx_system_protection__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_motor_msgs/msg/detail/dds_fastrtps/lynx_system_protection__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_motor_msgs/msg/lynx_status__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_motor_msgs/msg/detail/puma_feedback__type_support_c.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_motor_msgs/msg/detail/puma_feedback__type_support.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_motor_msgs/msg/lynx_system_protection__type_support.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_motor_msgs/msg/detail/puma_status__type_support.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_motor_msgs/msg/detail/puma_status__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_motor_msgs/msg/detail/dds_fastrtps/puma_feedback__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_motor_msgs/msg/puma_feedback__type_support.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_motor_msgs/msg/detail/puma_multi_feedback__type_support.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_motor_msgs/msg/puma_status__type_support.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_motor_msgs/msg/detail/dds_fastrtps/puma_status__type_support.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_motor_msgs/msg/detail/puma_multi_feedback__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_motor_msgs/msg/puma_multi_feedback__type_support.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_motor_msgs/msg/detail/puma_multi_status__type_support.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_motor_msgs/msg/puma_multi_status__type_support.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_motor_msgs/msg/detail/puma_multi_status__type_support_c.cpp.o[0m
+[ 83%] [32m[1mLinking CXX shared library libclearpath_motor_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_motor_msgs/msg/detail/dds_fastrtps/puma_multi_feedback__type_support.cpp.o[0m
+[ 83%] Built target clearpath_motor_msgs__rosidl_typesupport_introspection_cpp
+[ 84%] [32m[1mLinking CXX shared library libclearpath_motor_msgs__rosidl_typesupport_cpp.so[0m
+[ 84%] Built target clearpath_motor_msgs__rosidl_typesupport_cpp
+[ 85%] [32m[1mLinking CXX shared library libclearpath_motor_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/clearpath_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_motor_msgs/msg/detail/dds_fastrtps/puma_multi_status__type_support.cpp.o[0m
+[ 86%] Built target clearpath_motor_msgs__rosidl_typesupport_fastrtps_c
+[ 86%] [32m[1mLinking CXX shared library libclearpath_motor_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 86%] Built target clearpath_motor_msgs__rosidl_typesupport_fastrtps_cpp
+[ 86%] Built target clearpath_motor_msgs
+[ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 87%] Built target clearpath_motor_msgs__py
+[ 88%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_motor_msgs/action/_lynx_calibrate_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_motor_msgs/action/_lynx_update_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_motor_msgs/msg/_lynx_debug_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_motor_msgs/msg/_lynx_feedback_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_motor_msgs/msg/_lynx_multi_debug_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_motor_msgs/msg/_lynx_multi_feedback_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_motor_msgs/msg/_lynx_multi_status_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_motor_msgs/msg/_lynx_status_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_motor_msgs/msg/_lynx_system_protection_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_motor_msgs/msg/_puma_feedback_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_motor_msgs/msg/_puma_status_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_motor_msgs/msg/_puma_multi_feedback_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_motor_msgs/msg/_puma_multi_status_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_motor_msgs/msg/_lynx_motor_protection_s.c.o[0m
+[ 96%] [32m[1mLinking C shared library libclearpath_motor_msgs__rosidl_generator_py.so[0m
+[ 96%] Built target clearpath_motor_msgs__rosidl_generator_py
+[ 98%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/clearpath_motor_msgs/_clearpath_motor_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 98%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/clearpath_motor_msgs/_clearpath_motor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 99%] [32m[1mLinking C shared module rosidl_generator_py/clearpath_motor_msgs/clearpath_motor_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[ 99%] [32m[1mLinking C shared module rosidl_generator_py/clearpath_motor_msgs/clearpath_motor_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 99%] Built target clearpath_motor_msgs_s__rosidl_typesupport_introspection_c
+[ 99%] Built target clearpath_motor_msgs_s__rosidl_typesupport_fastrtps_c
+[ 99%] [32mBuilding C object CMakeFiles/clearpath_motor_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/clearpath_motor_msgs/_clearpath_motor_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/clearpath_motor_msgs/clearpath_motor_msgs_s__rosidl_typesupport_c.so[0m
+[100%] Built target clearpath_motor_msgs_s__rosidl_typesupport_c
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/ament_index/resource_index/rosidl_interfaces/clearpath_motor_msgs
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/action/LynxCalibrate.json
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/action/LynxUpdate.json
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxDebug.json
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxFeedback.json
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxMotorProtection.json
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxMultiDebug.json
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxMultiFeedback.json
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxMultiStatus.json
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxStatus.json
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxSystemProtection.json
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/PumaFeedback.json
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/PumaStatus.json
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/PumaMultiFeedback.json
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/PumaMultiStatus.json
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/detail/lynx_calibrate__functions.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/detail/lynx_calibrate__struct.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/detail/lynx_calibrate__type_support.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/detail/lynx_update__functions.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/detail/lynx_update__struct.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/detail/lynx_update__type_support.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/lynx_calibrate.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/lynx_update.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_debug__functions.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_debug__struct.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_debug__type_support.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_feedback__functions.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_feedback__struct.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_feedback__type_support.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_motor_protection__functions.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_motor_protection__struct.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_motor_protection__type_support.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_debug__functions.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_debug__struct.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_debug__type_support.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_feedback__functions.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_feedback__struct.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_feedback__type_support.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_status__functions.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_status__struct.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_status__type_support.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_status__functions.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_status__struct.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_status__type_support.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_system_protection__functions.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_system_protection__struct.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_system_protection__type_support.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_feedback__functions.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_feedback__struct.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_feedback__type_support.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_multi_feedback__functions.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_multi_feedback__struct.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_multi_feedback__type_support.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_multi_status__functions.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_multi_status__struct.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_multi_status__type_support.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_status__functions.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_status__struct.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_status__type_support.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/lynx_debug.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/lynx_feedback.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/lynx_motor_protection.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/lynx_multi_debug.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/lynx_multi_feedback.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/lynx_multi_status.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/lynx_status.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/lynx_system_protection.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/puma_feedback.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/puma_multi_feedback.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/puma_multi_status.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/puma_status.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/environment/library_path.sh
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/environment/library_path.dsv
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/detail/lynx_calibrate__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/detail/lynx_update__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_debug__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_feedback__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_motor_protection__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_debug__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_feedback__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_system_protection__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_feedback__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_multi_feedback__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_multi_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/detail/lynx_calibrate__builder.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/detail/lynx_calibrate__struct.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/detail/lynx_calibrate__traits.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/detail/lynx_calibrate__type_support.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/detail/lynx_update__builder.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/detail/lynx_update__struct.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/detail/lynx_update__traits.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/detail/lynx_update__type_support.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/lynx_calibrate.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/lynx_update.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_debug__builder.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_debug__struct.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_debug__traits.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_debug__type_support.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_feedback__builder.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_feedback__struct.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_feedback__traits.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_feedback__type_support.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_motor_protection__builder.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_motor_protection__struct.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_motor_protection__traits.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_motor_protection__type_support.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_debug__builder.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_debug__struct.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_debug__traits.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_debug__type_support.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_feedback__builder.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_feedback__struct.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_feedback__traits.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_feedback__type_support.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_status__builder.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_status__struct.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_status__traits.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_status__type_support.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_status__builder.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_status__struct.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_status__traits.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_status__type_support.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_system_protection__builder.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_system_protection__struct.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_system_protection__traits.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_system_protection__type_support.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_feedback__builder.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_feedback__struct.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_feedback__traits.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_feedback__type_support.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_multi_feedback__builder.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_multi_feedback__struct.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_multi_feedback__traits.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_multi_feedback__type_support.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_multi_status__builder.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_multi_status__struct.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_multi_status__traits.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_multi_status__type_support.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_status__builder.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_status__struct.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_status__traits.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_status__type_support.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/lynx_debug.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/lynx_feedback.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/lynx_motor_protection.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/lynx_multi_debug.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/lynx_multi_feedback.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/lynx_multi_status.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/lynx_status.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/lynx_system_protection.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/puma_feedback.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/puma_multi_feedback.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/puma_multi_status.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/puma_status.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/detail/lynx_calibrate__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/detail/lynx_update__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_debug__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_motor_protection__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_debug__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_system_protection__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_multi_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_multi_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/detail/lynx_calibrate__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/detail/lynx_update__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_debug__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_feedback__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_motor_protection__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_debug__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_feedback__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_system_protection__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_feedback__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_multi_feedback__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_multi_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/detail/lynx_calibrate__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/action/detail/lynx_update__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_debug__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_feedback__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_motor_protection__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_debug__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_feedback__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_multi_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/lynx_system_protection__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_feedback__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_multi_feedback__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_multi_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/include/clearpath_motor_msgs/clearpath_motor_msgs/msg/detail/puma_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/environment/pythonpath.sh
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/environment/pythonpath.dsv
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs-2.7.0-py3.12.egg-info/PKG-INFO
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs-2.7.0-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs-2.7.0-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs-2.7.0-py3.12.egg-info/top_level.txt
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/__init__.py
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/_clearpath_motor_msgs_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/_clearpath_motor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/_clearpath_motor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/action/__init__.py
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/action/_lynx_calibrate.py
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/action/_lynx_calibrate_s.c
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/action/_lynx_update.py
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/action/_lynx_update_s.c
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/clearpath_motor_msgs_s__rosidl_typesupport_c.so
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/clearpath_motor_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/clearpath_motor_msgs_s__rosidl_typesupport_introspection_c.so
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/__init__.py
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_debug.py
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_debug_s.c
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_feedback.py
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_feedback_s.c
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_motor_protection.py
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_motor_protection_s.c
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_multi_debug.py
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_multi_debug_s.c
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_multi_feedback.py
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_multi_feedback_s.c
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_multi_status.py
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_multi_status_s.c
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_status.py
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_status_s.c
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_system_protection.py
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_system_protection_s.c
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_puma_feedback.py
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_puma_feedback_s.c
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_puma_multi_feedback.py
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_puma_multi_feedback_s.c
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_puma_multi_status.py
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_puma_multi_status_s.c
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_puma_status.py
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_puma_status_s.c
+-- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/clearpath_motor_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/clearpath_motor_msgs_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/clearpath_motor_msgs_s__rosidl_typesupport_c.so
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/action/LynxCalibrate.idl
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/action/LynxUpdate.idl
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxDebug.idl
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxFeedback.idl
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxMotorProtection.idl
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxMultiDebug.idl
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxMultiFeedback.idl
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxMultiStatus.idl
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxStatus.idl
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxSystemProtection.idl
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/PumaFeedback.idl
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/PumaStatus.idl
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/PumaMultiFeedback.idl
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/PumaMultiStatus.idl
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/action/LynxCalibrate.action
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/action/LynxUpdate.action
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxDebug.msg
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxFeedback.msg
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxMotorProtection.msg
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxMultiDebug.msg
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxMultiFeedback.msg
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxMultiStatus.msg
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxStatus.msg
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/LynxSystemProtection.msg
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/PumaFeedback.msg
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/PumaStatus.msg
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/PumaMultiFeedback.msg
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/msg/PumaMultiStatus.msg
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/ament_index/resource_index/package_run_dependencies/clearpath_motor_msgs
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/ament_index/resource_index/parent_prefix_path/clearpath_motor_msgs
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/environment/ament_prefix_path.sh
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/environment/ament_prefix_path.dsv
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/environment/path.sh
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/environment/path.dsv
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/local_setup.bash
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/local_setup.sh
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/local_setup.zsh
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/local_setup.dsv
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/package.dsv
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/ament_index/resource_index/packages/clearpath_motor_msgs
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/clearpath_motor_msgsConfig.cmake
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/clearpath_motor_msgsConfig-version.cmake
+-- Symlinking: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/package.xml
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/libclearpath_motor_msgs__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/libclearpath_motor_msgs__rosidl_generator_c.so" to ""
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/libclearpath_motor_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/libclearpath_motor_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/libclearpath_motor_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/libclearpath_motor_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/libclearpath_motor_msgs__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/libclearpath_motor_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/libclearpath_motor_msgs__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/libclearpath_motor_msgs__rosidl_typesupport_c.so" to ""
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/libclearpath_motor_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/libclearpath_motor_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/libclearpath_motor_msgs__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/libclearpath_motor_msgs__rosidl_typesupport_cpp.so" to ""
+Listing '/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs'...
+Compiling '/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/__init__.py'...
+Listing '/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/action'...
+Compiling '/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/action/__init__.py'...
+Compiling '/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/action/_lynx_calibrate.py'...
+Compiling '/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/action/_lynx_update.py'...
+Listing '/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg'...
+Compiling '/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/__init__.py'...
+Compiling '/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_debug.py'...
+Compiling '/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_feedback.py'...
+Compiling '/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_motor_protection.py'...
+Compiling '/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_multi_debug.py'...
+Compiling '/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_multi_feedback.py'...
+Compiling '/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_multi_status.py'...
+Compiling '/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_status.py'...
+Compiling '/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_lynx_system_protection.py'...
+Compiling '/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_puma_feedback.py'...
+Compiling '/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_puma_multi_feedback.py'...
+Compiling '/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_puma_multi_status.py'...
+Compiling '/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/python3.12/site-packages/clearpath_motor_msgs/msg/_puma_status.py'...
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/libclearpath_motor_msgs__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/robolab/clearpath_ws/install/clearpath_motor_msgs/lib/libclearpath_motor_msgs__rosidl_generator_py.so" to ""
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/export_clearpath_motor_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/export_clearpath_motor_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/export_clearpath_motor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/export_clearpath_motor_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/export_clearpath_motor_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/export_clearpath_motor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/export_clearpath_motor_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/clearpath_motor_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/clearpath_motor_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/clearpath_motor_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/clearpath_motor_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/clearpath_motor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/clearpath_motor_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/clearpath_motor_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/clearpath_motor_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/export_clearpath_motor_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /home/robolab/clearpath_ws/install/clearpath_motor_msgs/share/clearpath_motor_msgs/cmake/export_clearpath_motor_msgs__rosidl_generator_pyExport-noconfig.cmake

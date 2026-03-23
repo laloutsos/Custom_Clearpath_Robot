@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from clearpath_motor_msgs/msg/LynxFeedback.msg
+// generated code does not contain a copyright notice
+
+
+module clearpath_motor_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Number on the bus (CAN ID).")
+    struct LynxFeedback {
+      uint8 can_id;
+
+      @verbatim (language="comment", text=
+        "Name of joint controlled, or other identifier.")
+      string joint_name;
+
+      @verbatim (language="comment", text=
+        "Current consumed (amps RMS).")
+      float current;
+
+      @verbatim (language="comment", text=
+        "Motor voltage (volts).")
+      float voltage;
+
+      @verbatim (language="comment", text=
+        "Angular velocity of the wheel (rad/s).")
+      float velocity;
+
+      @verbatim (language="comment", text=
+        "Total travel of the wheel (rad).")
+      float travel;
+    };
+  };
+};

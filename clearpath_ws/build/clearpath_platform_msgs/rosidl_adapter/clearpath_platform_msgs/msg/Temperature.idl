@@ -1,0 +1,61 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from clearpath_platform_msgs/msg/Temperature.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module clearpath_platform_msgs {
+  module msg {
+    module Temperature_Constants {
+      @verbatim (language="comment", text=
+        "Jackal (J100)")
+      const uint8 J100_MCU = 0;
+      const uint8 J100_PCB = 1;
+      @verbatim (language="comment", text=
+        "Dingo 1.0 (D100)")
+      const uint8 D100_MCU = 0;
+      const uint8 D100_PCB = 1;
+      @verbatim (language="comment", text=
+        "Dingo 1.5 (D150)")
+      const uint8 D150_MCU = 0;
+      const uint8 D150_PCB = 1;
+      @verbatim (language="comment", text=
+        "Warthog (W200)")
+      const uint8 W200_MCU = 0;
+      @verbatim (language="comment", text=
+        "Ridgeback (R100)")
+      const uint8 R100_MCU = 0;
+      const uint8 R100_PCB = 1;
+      @verbatim (language="comment", text=
+        "Common Core (CC01)")
+      const uint8 CC01_MCU = 0;
+      const uint8 CC01_FAN1 = 1;
+      const uint8 CC01_FAN2 = 2;
+      const uint8 CC01_FAN3 = 3;
+      const uint8 CC01_FAN4 = 4;
+      const uint8 CC01_FAN5 = 5;
+      const uint8 CC01_FAN6 = 6;
+      const uint8 CC01_FAN7 = 7;
+      const uint8 CC01_FAN8 = 8;
+      const uint8 CC01_5V_INDUCTOR = 9;
+      const uint8 CC01_MAIN_GND_LUG = 10;
+      const uint8 CC01_24V_DCDC = 11;
+      const uint8 CC01_12V_DCDC = 12;
+      const uint8 CC01_EXT_1 = 13;
+      const uint8 CC01_EXT_2 = 14;
+      const uint8 CC01_EXT_3 = 15;
+      const uint8 CC01_EXT_4 = 16;
+      const uint8 CC01_BREAKOUT_1 = 17;
+      const uint8 CC01_BREAKOUT_2 = 18;
+    };
+    @verbatim (language="comment", text=
+      "Location of temperature sensors.")
+    struct Temperature {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Array of temperature readings in Celsius")
+      sequence<float> temperatures;
+    };
+  };
+};

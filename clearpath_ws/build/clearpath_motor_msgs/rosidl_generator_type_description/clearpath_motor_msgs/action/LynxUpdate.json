@@ -1,0 +1,522 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "clearpath_motor_msgs/action/LynxUpdate",
+      "fields": [
+        {
+          "name": "goal",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "clearpath_motor_msgs/action/LynxUpdate_Goal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "clearpath_motor_msgs/action/LynxUpdate_Result"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "clearpath_motor_msgs/action/LynxUpdate_Feedback"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "send_goal_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "clearpath_motor_msgs/action/LynxUpdate_SendGoal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "get_result_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "clearpath_motor_msgs/action/LynxUpdate_GetResult"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "clearpath_motor_msgs/action/LynxUpdate_FeedbackMessage"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "clearpath_motor_msgs/action/LynxUpdate_Feedback",
+        "fields": [
+          {
+            "name": "progress",
+            "type": {
+              "type_id": 154,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "clearpath_motor_msgs/action/LynxUpdate_FeedbackMessage",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "feedback",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "clearpath_motor_msgs/action/LynxUpdate_Feedback"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "clearpath_motor_msgs/action/LynxUpdate_GetResult",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "clearpath_motor_msgs/action/LynxUpdate_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "clearpath_motor_msgs/action/LynxUpdate_GetResult_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "clearpath_motor_msgs/action/LynxUpdate_GetResult_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "clearpath_motor_msgs/action/LynxUpdate_GetResult_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "clearpath_motor_msgs/action/LynxUpdate_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "clearpath_motor_msgs/action/LynxUpdate_GetResult_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "clearpath_motor_msgs/action/LynxUpdate_GetResult_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "clearpath_motor_msgs/action/LynxUpdate_GetResult_Response",
+        "fields": [
+          {
+            "name": "status",
+            "type": {
+              "type_id": 2,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "result",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "clearpath_motor_msgs/action/LynxUpdate_Result"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "clearpath_motor_msgs/action/LynxUpdate_Goal",
+        "fields": [
+          {
+            "name": "file",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "clearpath_motor_msgs/action/LynxUpdate_Result",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 159,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "clearpath_motor_msgs/action/LynxUpdate_SendGoal",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "clearpath_motor_msgs/action/LynxUpdate_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "clearpath_motor_msgs/action/LynxUpdate_SendGoal_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "clearpath_motor_msgs/action/LynxUpdate_SendGoal_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "clearpath_motor_msgs/action/LynxUpdate_SendGoal_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "clearpath_motor_msgs/action/LynxUpdate_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "clearpath_motor_msgs/action/LynxUpdate_SendGoal_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "clearpath_motor_msgs/action/LynxUpdate_SendGoal_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "goal",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "clearpath_motor_msgs/action/LynxUpdate_Goal"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "clearpath_motor_msgs/action/LynxUpdate_SendGoal_Response",
+        "fields": [
+          {
+            "name": "accepted",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "service_msgs/msg/ServiceEventInfo",
+        "fields": [
+          {
+            "name": "event_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "client_gid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sequence_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "unique_identifier_msgs/msg/UUID",
+        "fields": [
+          {
+            "name": "uuid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "clearpath_motor_msgs/action/LynxUpdate",
+      "hash_string": "RIHS01_401e9ea6b612722f4c0d72666ef2e8d6a06611e5301920308b81f91d35470fca"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "clearpath_motor_msgs/action/LynxUpdate_Feedback",
+      "hash_string": "RIHS01_d02982d87bc7f2be19d0e78e9ec64c949fd04fa07f975e98f483186c7849dd78"
+    },
+    {
+      "type_name": "clearpath_motor_msgs/action/LynxUpdate_FeedbackMessage",
+      "hash_string": "RIHS01_8b173a5e7516eed66912054d26d7d3922ed7fe0883b9c06139065fd6b116acce"
+    },
+    {
+      "type_name": "clearpath_motor_msgs/action/LynxUpdate_GetResult",
+      "hash_string": "RIHS01_797a80fc2d37aec5c667f87392092cea1f478a36c210ffb3c7aa13b7f585905c"
+    },
+    {
+      "type_name": "clearpath_motor_msgs/action/LynxUpdate_GetResult_Event",
+      "hash_string": "RIHS01_baad19fcf2be9d2b2631ec192b7ec4d697dfb7871e40d23eea571899a6646079"
+    },
+    {
+      "type_name": "clearpath_motor_msgs/action/LynxUpdate_GetResult_Request",
+      "hash_string": "RIHS01_a1df8ebe68396e0f71f47819940e02d441c4a22ad8263710583983c279612ccd"
+    },
+    {
+      "type_name": "clearpath_motor_msgs/action/LynxUpdate_GetResult_Response",
+      "hash_string": "RIHS01_3d78ace8a1e2abbd5a4165b91cba471c950b837dc07a45c245c8416356ade663"
+    },
+    {
+      "type_name": "clearpath_motor_msgs/action/LynxUpdate_Goal",
+      "hash_string": "RIHS01_f8a5b4131c94f6622beaa7035bdede51f0dad38b8838e0954cba2d5498ae451a"
+    },
+    {
+      "type_name": "clearpath_motor_msgs/action/LynxUpdate_Result",
+      "hash_string": "RIHS01_1406a87151d2a555f4d4d0eda51d348e4a1877f46a546c3366bb653028914a64"
+    },
+    {
+      "type_name": "clearpath_motor_msgs/action/LynxUpdate_SendGoal",
+      "hash_string": "RIHS01_91790a3872414a92522b872a955378b6f009422f8bde6786dc59f69239c4fa69"
+    },
+    {
+      "type_name": "clearpath_motor_msgs/action/LynxUpdate_SendGoal_Event",
+      "hash_string": "RIHS01_7ed6bbd6e2332e6e900c094094b10df072096c4ea3af53db04cb25dbef98376e"
+    },
+    {
+      "type_name": "clearpath_motor_msgs/action/LynxUpdate_SendGoal_Request",
+      "hash_string": "RIHS01_05c0e5d1e8d0cc609474d70ad2437aa8f44e276aa45b5eaa33ee8a81957e9a3d"
+    },
+    {
+      "type_name": "clearpath_motor_msgs/action/LynxUpdate_SendGoal_Response",
+      "hash_string": "RIHS01_9d0fd57f676c60ff15f15616937db4c959e526ee9da3774913e4be745610a580"
+    },
+    {
+      "type_name": "service_msgs/msg/ServiceEventInfo",
+      "hash_string": "RIHS01_41bcbbe07a75c9b52bc96bfd5c24d7f0fc0a08c0cb7921b3373c5732345a6f45"
+    },
+    {
+      "type_name": "unique_identifier_msgs/msg/UUID",
+      "hash_string": "RIHS01_1b8e8aca958cbea28fe6ef60bf6c19b683c97a9ef60bb34752067d0f2f7ab437"
+    }
+  ]
+}

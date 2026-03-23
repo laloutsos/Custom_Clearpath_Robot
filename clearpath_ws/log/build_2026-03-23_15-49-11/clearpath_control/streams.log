@@ -1,0 +1,76 @@
+[0.019s] Invoking command in '/home/robolab/clearpath_ws/build/clearpath_control': AMENT_PREFIX_PATH=/home/robolab/clearpath_ws/install/clearpath_bt_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robolab/clearpath_ws/install/clearpath_bt_joy/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/robolab/clearpath_ws/src/clearpath_common/clearpath_control -DCMAKE_INSTALL_PREFIX=/home/robolab/clearpath_ws/install/clearpath_control
+[0.041s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.343s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.479s] -- Configuring done (0.4s)
+[0.481s] -- Generating done (0.0s)
+[0.483s] -- Build files have been written to: /home/robolab/clearpath_ws/build/clearpath_control
+[0.486s] Invoked command in '/home/robolab/clearpath_ws/build/clearpath_control' returned '0': AMENT_PREFIX_PATH=/home/robolab/clearpath_ws/install/clearpath_bt_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robolab/clearpath_ws/install/clearpath_bt_joy/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/robolab/clearpath_ws/src/clearpath_common/clearpath_control -DCMAKE_INSTALL_PREFIX=/home/robolab/clearpath_ws/install/clearpath_control
+[0.487s] Invoking command in '/home/robolab/clearpath_ws/build/clearpath_control': AMENT_PREFIX_PATH=/home/robolab/clearpath_ws/install/clearpath_bt_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robolab/clearpath_ws/install/clearpath_bt_joy/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robolab/clearpath_ws/build/clearpath_control -- -j4 -l4
+[0.550s] Invoked command in '/home/robolab/clearpath_ws/build/clearpath_control' returned '0': AMENT_PREFIX_PATH=/home/robolab/clearpath_ws/install/clearpath_bt_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robolab/clearpath_ws/install/clearpath_bt_joy/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robolab/clearpath_ws/build/clearpath_control -- -j4 -l4
+[0.554s] Invoking command in '/home/robolab/clearpath_ws/build/clearpath_control': AMENT_PREFIX_PATH=/home/robolab/clearpath_ws/install/clearpath_bt_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robolab/clearpath_ws/install/clearpath_bt_joy/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robolab/clearpath_ws/build/clearpath_control
+[0.565s] -- Install configuration: ""
+[0.566s] -- Execute custom install script
+[0.567s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/a200/control/diff_4wd.yaml
+[0.568s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/a200/teleop_interactive_markers.yaml
+[0.568s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/a200/teleop_joy.yaml
+[0.568s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/a300/control/diff_4wd.yaml
+[0.570s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/a300/control/diff_fwd.yaml
+[0.570s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/a300/control/diff_rwd.yaml
+[0.571s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/a300/control/omni_4wd.yaml
+[0.571s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/a300/teleop_interactive_markers.yaml
+[0.571s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/a300/teleop_joy.yaml
+[0.571s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/dd100/control/diff_fwd.yaml
+[0.572s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/dd100/teleop_interactive_markers.yaml
+[0.574s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/dd100/teleop_joy.yaml
+[0.574s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/dd150/control/diff_fwd.yaml
+[0.574s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/dd150/localization.yaml
+[0.575s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/dd150/teleop_interactive_markers.yaml
+[0.575s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/dd150/teleop_joy.yaml
+[0.575s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/do100/control/diff_4wd.yaml
+[0.575s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/do100/control/omni_4wd.yaml
+[0.575s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/do100/teleop_interactive_markers.yaml
+[0.575s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/do100/teleop_joy.yaml
+[0.576s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/do150/control/diff_4wd.yaml
+[0.576s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/do150/control/omni_4wd.yaml
+[0.576s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/do150/teleop_interactive_markers.yaml
+[0.577s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/do150/teleop_joy.yaml
+[0.577s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/generic/control/empty.yaml
+[0.577s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/generic/localization.yaml
+[0.577s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/generic/teleop_interactive_markers.yaml
+[0.578s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/generic/teleop_joy.yaml
+[0.578s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/generic/teleop_logitech.yaml
+[0.578s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/generic/teleop_ps4.yaml
+[0.578s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/generic/teleop_ps5.yaml
+[0.578s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/generic/teleop_xbox.yaml
+[0.578s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/imu_filter.yaml
+[0.579s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/j100/control/diff_4wd.yaml
+[0.579s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/j100/teleop_interactive_markers.yaml
+[0.579s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/j100/teleop_joy.yaml
+[0.583s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/r100/control/diff_4wd.yaml
+[0.583s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/r100/control/omni_4wd.yaml
+[0.583s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/r100/teleop_interactive_markers.yaml
+[0.583s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/r100/teleop_joy.yaml
+[0.583s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/twist_mux.yaml
+[0.584s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/w200/control/diff_4wd.yaml
+[0.584s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/w200/teleop_interactive_markers.yaml
+[0.584s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/config/w200/teleop_joy.yaml
+[0.584s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/launch/control.launch.py
+[0.584s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/launch/localization.launch.py
+[0.587s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/launch/teleop_base.launch.py
+[0.587s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/launch/teleop_joy.launch.py
+[0.587s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/ament_index/resource_index/package_run_dependencies/clearpath_control
+[0.587s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/ament_index/resource_index/parent_prefix_path/clearpath_control
+[0.587s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/environment/ament_prefix_path.sh
+[0.587s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/environment/ament_prefix_path.dsv
+[0.588s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/environment/path.sh
+[0.588s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/environment/path.dsv
+[0.589s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/local_setup.bash
+[0.589s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/local_setup.sh
+[0.589s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/local_setup.zsh
+[0.589s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/local_setup.dsv
+[0.589s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/package.dsv
+[0.598s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/ament_index/resource_index/packages/clearpath_control
+[0.598s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/cmake/clearpath_controlConfig.cmake
+[0.598s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/cmake/clearpath_controlConfig-version.cmake
+[0.598s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_control/share/clearpath_control/package.xml
+[0.625s] Invoked command in '/home/robolab/clearpath_ws/build/clearpath_control' returned '0': AMENT_PREFIX_PATH=/home/robolab/clearpath_ws/install/clearpath_bt_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robolab/clearpath_ws/install/clearpath_bt_joy/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robolab/clearpath_ws/build/clearpath_control

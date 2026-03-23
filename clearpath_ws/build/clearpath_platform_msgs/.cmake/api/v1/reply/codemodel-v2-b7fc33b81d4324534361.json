@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b2f0e21bb32d9d027137.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "clearpath_platform_msgs__py",
+					"jsonFile" : "directory-clearpath_platform_msgs__py-f62a0be55603fea4eace.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/robolab/clearpath_ws/build/clearpath_platform_msgs/clearpath_platform_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "clearpath_platform_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_clearpath_platform_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_clearpath_platform_msgs_egg-242deea165c9f8775404.json",
+					"name" : "ament_cmake_python_build_clearpath_platform_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_clearpath_platform_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_clearpath_platform_msgs-4ee7668a5a2411a88171.json",
+					"name" : "ament_cmake_python_symlink_clearpath_platform_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clearpath_platform_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clearpath_platform_msgs-1f0643f787628c2ba19e.json",
+					"name" : "clearpath_platform_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clearpath_platform_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clearpath_platform_msgs__cpp-89ff6f83c6710866b012.json",
+					"name" : "clearpath_platform_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "clearpath_platform_msgs__py::@752e335640e389d189ea",
+					"jsonFile" : "target-clearpath_platform_msgs__py-89996b0d0dc7776874e9.json",
+					"name" : "clearpath_platform_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clearpath_platform_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clearpath_platform_msgs__rosidl_generator_c-a204ffa2ed5ca50a1dbb.json",
+					"name" : "clearpath_platform_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clearpath_platform_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clearpath_platform_msgs__rosidl_generator_py-e9dbf98cef27632fdbe9.json",
+					"name" : "clearpath_platform_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clearpath_platform_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clearpath_platform_msgs__rosidl_generator_type_description-d329e720e3cfd25b82dd.json",
+					"name" : "clearpath_platform_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clearpath_platform_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clearpath_platform_msgs__rosidl_typesupport_c-a919cdf7b3e7f4344f3b.json",
+					"name" : "clearpath_platform_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clearpath_platform_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clearpath_platform_msgs__rosidl_typesupport_cpp-65cb514fefecaf2d252b.json",
+					"name" : "clearpath_platform_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clearpath_platform_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clearpath_platform_msgs__rosidl_typesupport_fastrtps_c-d6512ca86b6feb4fe59d.json",
+					"name" : "clearpath_platform_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp-e51e808e904945ba5da9.json",
+					"name" : "clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clearpath_platform_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clearpath_platform_msgs__rosidl_typesupport_introspection_c-ca102b5522e9ffd5fc62.json",
+					"name" : "clearpath_platform_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clearpath_platform_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clearpath_platform_msgs__rosidl_typesupport_introspection_cpp-88a19b7ba2d4ebf650b4.json",
+					"name" : "clearpath_platform_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clearpath_platform_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clearpath_platform_msgs_s__rosidl_typesupport_c-baeb7ff925c588f12f68.json",
+					"name" : "clearpath_platform_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clearpath_platform_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clearpath_platform_msgs_s__rosidl_typesupport_fastrtps_c-7e9f1369011eb6219af4.json",
+					"name" : "clearpath_platform_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clearpath_platform_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clearpath_platform_msgs_s__rosidl_typesupport_introspection_c-21f412592d2e9b0bcc59.json",
+					"name" : "clearpath_platform_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clearpath_platform_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clearpath_platform_msgs_uninstall-e4da438daafbd037ef70.json",
+					"name" : "clearpath_platform_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c09aa3f54dc7ebb17e38.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robolab/clearpath_ws/build/clearpath_platform_msgs",
+		"source" : "/home/robolab/clearpath_ws/src/clearpath_msgs/clearpath_platform_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

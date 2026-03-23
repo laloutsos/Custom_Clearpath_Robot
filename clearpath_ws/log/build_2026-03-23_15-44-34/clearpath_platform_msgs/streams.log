@@ -1,0 +1,610 @@
+[0.019s] Invoking command in '/home/robolab/clearpath_ws/build/clearpath_platform_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robolab/clearpath_ws/src/clearpath_msgs/clearpath_platform_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robolab/clearpath_ws/install/clearpath_platform_msgs
+[0.312s] -- The C compiler identification is GNU 13.3.0
+[0.312s] -- The CXX compiler identification is GNU 13.3.0
+[0.312s] -- Detecting C compiler ABI info
+[0.312s] -- Detecting C compiler ABI info - done
+[0.312s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.312s] -- Detecting C compile features
+[0.312s] -- Detecting C compile features - done
+[0.312s] -- Detecting CXX compiler ABI info
+[0.391s] -- Detecting CXX compiler ABI info - done
+[0.405s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.405s] -- Detecting CXX compile features
+[0.405s] -- Detecting CXX compile features - done
+[0.412s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.612s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.703s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.759s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.822s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.844s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.869s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.897s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.947s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.973s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.930s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.908s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.282s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.288s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.438s] -- Found PythonExtra: /usr/bin/python3  
+[4.012s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.104s] -- Configuring done (4.1s)
+[4.192s] -- Generating done (0.1s)
+[4.205s] -- Build files have been written to: /home/robolab/clearpath_ws/build/clearpath_platform_msgs
+[4.222s] Invoked command in '/home/robolab/clearpath_ws/build/clearpath_platform_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robolab/clearpath_ws/src/clearpath_msgs/clearpath_platform_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robolab/clearpath_ws/install/clearpath_platform_msgs
+[4.222s] Invoking command in '/home/robolab/clearpath_ws/build/clearpath_platform_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robolab/clearpath_ws/build/clearpath_platform_msgs -- -j4 -l4
+[4.305s] [  0%] Built target ament_cmake_python_symlink_clearpath_platform_msgs
+[4.316s] [  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.659s] running egg_info
+[4.660s] creating clearpath_platform_msgs.egg-info
+[4.688s] writing clearpath_platform_msgs.egg-info/PKG-INFO
+[4.688s] writing dependency_links to clearpath_platform_msgs.egg-info/dependency_links.txt
+[4.688s] writing top-level names to clearpath_platform_msgs.egg-info/top_level.txt
+[4.688s] writing manifest file 'clearpath_platform_msgs.egg-info/SOURCES.txt'
+[4.774s] reading manifest file 'clearpath_platform_msgs.egg-info/SOURCES.txt'
+[4.774s] writing manifest file 'clearpath_platform_msgs.egg-info/SOURCES.txt'
+[4.823s] [  0%] Built target ament_cmake_python_build_clearpath_platform_msgs_egg
+[6.306s] [  0%] Built target clearpath_platform_msgs__rosidl_generator_type_description
+[6.321s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.332s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.201s] [  0%] Built target clearpath_platform_msgs__cpp
+[9.466s] [  1%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/display_status__type_support.c.o[0m
+[9.466s] [  2%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/drive__description.c.o[0m
+[9.467s] [  3%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/display_status__description.c.o[0m
+[9.477s] [  3%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/display_status__functions.c.o[0m
+[9.503s] [  3%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/drive__functions.c.o[0m
+[9.510s] [  4%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/drive__type_support.c.o[0m
+[9.530s] [  4%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/drive_feedback__description.c.o[0m
+[9.547s] [  5%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/drive_feedback__functions.c.o[0m
+[9.549s] [  5%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/drive_feedback__type_support.c.o[0m
+[9.565s] [  6%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/fans__description.c.o[0m
+[9.575s] [  7%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/fans__functions.c.o[0m
+[9.606s] [  7%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/fans__type_support.c.o[0m
+[9.618s] [  8%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/feedback__description.c.o[0m
+[9.646s] [  8%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/feedback__functions.c.o[0m
+[9.648s] [  8%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/lights__description.c.o[0m
+[9.650s] [  9%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/feedback__type_support.c.o[0m
+[9.666s] [ 10%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/lights__functions.c.o[0m
+[9.702s] [ 11%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/lights__type_support.c.o[0m
+[9.724s] [ 12%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/pinout_command__functions.c.o[0m
+[9.724s] [ 12%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/pinout_command__description.c.o[0m
+[9.735s] [ 12%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/pinout_command__type_support.c.o[0m
+[9.742s] [ 13%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/pinout_state__description.c.o[0m
+[9.775s] [ 13%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/pinout_state__functions.c.o[0m
+[9.793s] [ 14%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/pinout_state__type_support.c.o[0m
+[9.803s] [ 15%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/power__description.c.o[0m
+[9.824s] [ 15%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/power__functions.c.o[0m
+[9.833s] [ 16%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/power__type_support.c.o[0m
+[9.838s] [ 16%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/rgb__description.c.o[0m
+[9.870s] [ 16%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/rgb__type_support.c.o[0m
+[9.882s] [ 17%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/rgb__functions.c.o[0m
+[9.892s] [ 18%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/status__description.c.o[0m
+[9.901s] [ 19%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/status__functions.c.o[0m
+[9.934s] [ 19%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/status__type_support.c.o[0m
+[9.948s] [ 20%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/stop_status__description.c.o[0m
+[9.952s] [ 20%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/stop_status__functions.c.o[0m
+[9.977s] [ 21%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/stop_status__type_support.c.o[0m
+[9.986s] [ 21%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/temperature__description.c.o[0m
+[10.001s] [ 22%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/temperature__functions.c.o[0m
+[10.010s] [ 23%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/msg/detail/temperature__type_support.c.o[0m
+[10.026s] [ 23%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/srv/detail/configure_mcu__description.c.o[0m
+[10.051s] [ 24%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/srv/detail/configure_mcu__functions.c.o[0m
+[10.053s] [ 24%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/srv/detail/configure_mcu__type_support.c.o[0m
+[10.065s] [ 25%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/srv/detail/set_pinout__description.c.o[0m
+[10.095s] [ 26%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/srv/detail/set_pinout__functions.c.o[0m
+[10.124s] [ 26%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_c.dir/rosidl_generator_c/clearpath_platform_msgs/srv/detail/set_pinout__type_support.c.o[0m
+[10.201s] [ 27%] [32m[1mLinking C shared library libclearpath_platform_msgs__rosidl_generator_c.so[0m
+[10.250s] [ 27%] Built target clearpath_platform_msgs__rosidl_generator_c
+[10.264s] [ 28%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.264s] [ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.269s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.282s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[13.398s] [ 29%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/msg/detail/display_status__type_support.cpp.o[0m
+[13.846s] [ 30%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/msg/detail/drive__type_support.cpp.o[0m
+[14.020s] [ 31%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/display_status__type_support.c.o[0m
+[14.058s] [ 32%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/msg/display_status__type_support.cpp.o[0m
+[14.096s] [ 32%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/drive__type_support.c.o[0m
+[14.162s] [ 32%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/msg/drive__type_support.cpp.o[0m
+[14.187s] [ 33%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/drive_feedback__type_support.c.o[0m
+[14.247s] [ 34%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/msg/drive_feedback__type_support.cpp.o[0m
+[14.247s] [ 35%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/msg/detail/dds_fastrtps/display_status__type_support.cpp.o[0m
+[14.276s] [ 35%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/fans__type_support.c.o[0m
+[14.316s] [ 35%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/msg/fans__type_support.cpp.o[0m
+[14.323s] [ 36%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/msg/detail/drive_feedback__type_support.cpp.o[0m
+[14.353s] [ 37%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/feedback__type_support.c.o[0m
+[14.388s] [ 38%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/msg/feedback__type_support.cpp.o[0m
+[14.448s] [ 39%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/lights__type_support.c.o[0m
+[14.469s] [ 39%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/msg/lights__type_support.cpp.o[0m
+[14.522s] [ 40%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/msg/pinout_command__type_support.cpp.o[0m
+[14.548s] [ 40%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/pinout_command__type_support.c.o[0m
+[14.613s] [ 41%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/msg/pinout_state__type_support.cpp.o[0m
+[14.643s] [ 42%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/pinout_state__type_support.c.o[0m
+[14.702s] [ 42%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/msg/power__type_support.cpp.o[0m
+[14.777s] [ 42%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/power__type_support.c.o[0m
+[14.799s] [ 43%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/msg/rgb__type_support.cpp.o[0m
+[14.852s] [ 43%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/msg/detail/fans__type_support.cpp.o[0m
+[14.879s] [ 44%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/rgb__type_support.c.o[0m
+[14.903s] [ 44%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/msg/status__type_support.cpp.o[0m
+[14.962s] [ 44%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/status__type_support.c.o[0m
+[15.007s] [ 45%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/msg/stop_status__type_support.cpp.o[0m
+[15.059s] [ 46%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/stop_status__type_support.c.o[0m
+[15.108s] [ 46%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/msg/temperature__type_support.cpp.o[0m
+[15.141s] [ 47%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/temperature__type_support.c.o[0m
+[15.180s] [ 47%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/msg/detail/dds_fastrtps/drive__type_support.cpp.o[0m
+[15.207s] [ 48%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/srv/configure_mcu__type_support.cpp.o[0m
+[15.248s] [ 48%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/srv/detail/configure_mcu__type_support.c.o[0m
+[15.329s] [ 49%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/clearpath_platform_msgs/srv/set_pinout__type_support.cpp.o[0m
+[15.360s] [ 50%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/clearpath_platform_msgs/srv/detail/set_pinout__type_support.c.o[0m
+[15.434s] [ 51%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/msg/detail/feedback__type_support.cpp.o[0m
+[15.465s] [ 51%] [32m[1mLinking CXX shared library libclearpath_platform_msgs__rosidl_typesupport_c.so[0m
+[15.488s] [ 51%] [32m[1mLinking C shared library libclearpath_platform_msgs__rosidl_typesupport_introspection_c.so[0m
+[15.592s] [ 51%] Built target clearpath_platform_msgs__rosidl_typesupport_c
+[15.599s] [ 51%] Built target clearpath_platform_msgs__rosidl_typesupport_introspection_c
+[15.619s] [ 52%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.630s] [ 53%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[16.149s] [ 53%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/msg/detail/lights__type_support.cpp.o[0m
+[16.335s] [ 54%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/msg/detail/dds_fastrtps/drive_feedback__type_support.cpp.o[0m
+[17.003s] [ 55%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/msg/detail/pinout_command__type_support.cpp.o[0m
+[17.260s] [ 56%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/msg/detail/dds_fastrtps/fans__type_support.cpp.o[0m
+[17.807s] [ 56%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/msg/detail/dds_fastrtps/feedback__type_support.cpp.o[0m
+[18.088s] [ 56%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/msg/detail/pinout_state__type_support.cpp.o[0m
+[18.732s] [ 57%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/msg/detail/dds_fastrtps/lights__type_support.cpp.o[0m
+[19.320s] [ 58%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/msg/detail/power__type_support.cpp.o[0m
+[19.827s] [ 59%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/msg/detail/rgb__type_support.cpp.o[0m
+[20.092s] [ 59%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/msg/detail/dds_fastrtps/pinout_command__type_support.cpp.o[0m
+[20.328s] [ 59%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/msg/detail/status__type_support.cpp.o[0m
+[20.863s] [ 59%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/msg/display_status__type_support.cpp.o[0m
+[20.982s] [ 60%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/msg/detail/stop_status__type_support.cpp.o[0m
+[21.453s] [ 61%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/msg/detail/dds_fastrtps/pinout_state__type_support.cpp.o[0m
+[21.530s] [ 62%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/msg/drive__type_support.cpp.o[0m
+[21.662s] [ 62%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/msg/detail/temperature__type_support.cpp.o[0m
+[21.935s] [ 62%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/msg/detail/display_status__type_support_c.cpp.o[0m
+[22.243s] [ 63%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/msg/drive_feedback__type_support.cpp.o[0m
+[22.444s] [ 64%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/srv/detail/configure_mcu__type_support.cpp.o[0m
+[22.604s] [ 64%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/msg/detail/dds_fastrtps/power__type_support.cpp.o[0m
+[23.054s] [ 64%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/msg/fans__type_support.cpp.o[0m
+[23.134s] [ 65%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/msg/detail/drive__type_support_c.cpp.o[0m
+[23.658s] [ 65%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/clearpath_platform_msgs/srv/detail/set_pinout__type_support.cpp.o[0m
+[23.700s] [ 66%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/msg/feedback__type_support.cpp.o[0m
+[23.939s] [ 67%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/msg/detail/dds_fastrtps/rgb__type_support.cpp.o[0m
+[24.340s] [ 68%] [32m[1mLinking CXX shared library libclearpath_platform_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[24.421s] [ 68%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/msg/detail/drive_feedback__type_support_c.cpp.o[0m
+[24.475s] [ 68%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/msg/lights__type_support.cpp.o[0m
+[24.585s] [ 68%] Built target clearpath_platform_msgs__rosidl_typesupport_introspection_cpp
+[24.606s] [ 69%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/msg/detail/fans__type_support_c.cpp.o[0m
+[25.213s] [ 70%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/msg/detail/dds_fastrtps/status__type_support.cpp.o[0m
+[25.287s] [ 71%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/msg/pinout_command__type_support.cpp.o[0m
+[25.604s] [ 71%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/msg/detail/feedback__type_support_c.cpp.o[0m
+[25.928s] [ 71%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/msg/pinout_state__type_support.cpp.o[0m
+[25.954s] [ 72%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/msg/detail/lights__type_support_c.cpp.o[0m
+[26.476s] [ 72%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/msg/detail/dds_fastrtps/stop_status__type_support.cpp.o[0m
+[26.555s] [ 73%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/msg/detail/dds_fastrtps/temperature__type_support.cpp.o[0m
+[26.881s] [ 74%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/msg/power__type_support.cpp.o[0m
+[27.092s] [ 75%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/msg/detail/pinout_command__type_support_c.cpp.o[0m
+[27.593s] [ 75%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/msg/detail/pinout_state__type_support_c.cpp.o[0m
+[27.635s] [ 75%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/srv/detail/dds_fastrtps/configure_mcu__type_support.cpp.o[0m
+[27.669s] [ 76%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/msg/rgb__type_support.cpp.o[0m
+[28.164s] [ 76%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/msg/status__type_support.cpp.o[0m
+[28.341s] [ 77%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/msg/detail/power__type_support_c.cpp.o[0m
+[28.807s] [ 78%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/clearpath_platform_msgs/srv/detail/dds_fastrtps/set_pinout__type_support.cpp.o[0m
+[28.876s] [ 79%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/msg/stop_status__type_support.cpp.o[0m
+[29.118s] [ 79%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/msg/detail/rgb__type_support_c.cpp.o[0m
+[29.328s] [ 80%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/msg/detail/status__type_support_c.cpp.o[0m
+[29.635s] [ 80%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/msg/temperature__type_support.cpp.o[0m
+[30.036s] [ 80%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/msg/detail/stop_status__type_support_c.cpp.o[0m
+[30.212s] [ 81%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/srv/configure_mcu__type_support.cpp.o[0m
+[30.648s] [ 82%] [32m[1mLinking CXX shared library libclearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[30.730s] [ 83%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/msg/detail/temperature__type_support_c.cpp.o[0m
+[30.928s] [ 83%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/clearpath_platform_msgs/srv/set_pinout__type_support.cpp.o[0m
+[30.942s] [ 83%] Built target clearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp
+[31.059s] [ 84%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/srv/detail/configure_mcu__type_support_c.cpp.o[0m
+[31.425s] [ 84%] [32mBuilding CXX object CMakeFiles/clearpath_platform_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/clearpath_platform_msgs/srv/detail/set_pinout__type_support_c.cpp.o[0m
+[31.823s] [ 85%] [32m[1mLinking CXX shared library libclearpath_platform_msgs__rosidl_typesupport_cpp.so[0m
+[32.043s] [ 85%] Built target clearpath_platform_msgs__rosidl_typesupport_cpp
+[32.180s] [ 86%] [32m[1mLinking CXX shared library libclearpath_platform_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[32.400s] [ 86%] Built target clearpath_platform_msgs__rosidl_typesupport_fastrtps_c
+[32.448s] [ 86%] Built target clearpath_platform_msgs
+[32.509s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[37.536s] [ 87%] Built target clearpath_platform_msgs__py
+[37.561s] [ 88%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/msg/_display_status_s.c.o[0m
+[37.562s] [ 88%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/msg/_drive_s.c.o[0m
+[37.694s] [ 89%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/msg/_fans_s.c.o[0m
+[37.694s] [ 90%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/msg/_feedback_s.c.o[0m
+[37.831s] [ 90%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/msg/_lights_s.c.o[0m
+[37.832s] [ 91%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/msg/_pinout_command_s.c.o[0m
+[37.962s] [ 91%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/msg/_pinout_state_s.c.o[0m
+[37.976s] [ 92%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/msg/_power_s.c.o[0m
+[38.126s] [ 92%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/msg/_rgb_s.c.o[0m
+[38.138s] [ 93%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/msg/_status_s.c.o[0m
+[38.255s] [ 94%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/msg/_stop_status_s.c.o[0m
+[38.271s] [ 94%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/msg/_temperature_s.c.o[0m
+[38.387s] [ 95%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/srv/_configure_mcu_s.c.o[0m
+[38.416s] [ 95%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/srv/_set_pinout_s.c.o[0m
+[38.550s] [ 95%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs__rosidl_generator_py.dir/rosidl_generator_py/clearpath_platform_msgs/msg/_drive_feedback_s.c.o[0m
+[38.683s] [ 96%] [32m[1mLinking C shared library libclearpath_platform_msgs__rosidl_generator_py.so[0m
+[38.738s] [ 96%] Built target clearpath_platform_msgs__rosidl_generator_py
+[38.761s] [ 98%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[38.761s] [ 98%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[38.932s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[38.935s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[38.971s] [ 99%] Built target clearpath_platform_msgs_s__rosidl_typesupport_introspection_c
+[38.976s] [ 99%] Built target clearpath_platform_msgs_s__rosidl_typesupport_fastrtps_c
+[38.995s] [100%] [32mBuilding C object CMakeFiles/clearpath_platform_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[39.155s] [100%] [32m[1mLinking C shared module rosidl_generator_py/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_c.so[0m
+[39.191s] [100%] Built target clearpath_platform_msgs_s__rosidl_typesupport_c
+[39.206s] Invoked command in '/home/robolab/clearpath_ws/build/clearpath_platform_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robolab/clearpath_ws/build/clearpath_platform_msgs -- -j4 -l4
+[39.207s] Invoking command in '/home/robolab/clearpath_ws/build/clearpath_platform_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robolab/clearpath_ws/build/clearpath_platform_msgs
+[39.217s] -- Install configuration: ""
+[39.218s] -- Execute custom install script
+[39.218s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/ament_index/resource_index/rosidl_interfaces/clearpath_platform_msgs
+[39.231s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/DisplayStatus.json
+[39.241s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Drive.json
+[39.251s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/DriveFeedback.json
+[39.261s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Fans.json
+[39.270s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Feedback.json
+[39.280s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Lights.json
+[39.290s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/PinoutCommand.json
+[39.300s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/PinoutState.json
+[39.312s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Power.json
+[39.323s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/RGB.json
+[39.333s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Status.json
+[39.343s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/StopStatus.json
+[39.353s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Temperature.json
+[39.363s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/srv/ConfigureMcu.json
+[39.373s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/srv/SetPinout.json
+[39.384s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/display_status__functions.h
+[39.393s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/display_status__struct.h
+[39.403s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/display_status__type_support.h
+[39.415s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__functions.h
+[39.425s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__struct.h
+[39.435s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__type_support.h
+[39.445s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__functions.h
+[39.455s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__struct.h
+[39.465s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__type_support.h
+[39.475s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__functions.h
+[39.485s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__struct.h
+[39.494s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__type_support.h
+[39.506s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__functions.h
+[39.516s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__struct.h
+[39.527s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__type_support.h
+[39.536s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__functions.h
+[39.546s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__struct.h
+[39.556s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__type_support.h
+[39.567s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_command__functions.h
+[39.577s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_command__struct.h
+[39.587s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_command__type_support.h
+[39.597s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_state__functions.h
+[39.610s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_state__struct.h
+[39.619s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_state__type_support.h
+[39.629s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__functions.h
+[39.639s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__struct.h
+[39.649s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__type_support.h
+[39.659s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__functions.h
+[39.669s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__struct.h
+[39.679s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__type_support.h
+[39.689s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__functions.h
+[39.699s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__struct.h
+[39.710s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__type_support.h
+[39.721s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__functions.h
+[39.731s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__struct.h
+[39.741s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__type_support.h
+[39.751s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/temperature__functions.h
+[39.761s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/temperature__struct.h
+[39.771s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/temperature__type_support.h
+[39.781s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/display_status.h
+[39.791s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/drive.h
+[39.801s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/drive_feedback.h
+[39.813s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/fans.h
+[39.824s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/feedback.h
+[39.834s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/lights.h
+[39.844s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/pinout_command.h
+[39.854s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/pinout_state.h
+[39.864s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/power.h
+[39.874s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rgb.h
+[39.883s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rosidl_generator_c__visibility_control.h
+[39.893s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/status.h
+[39.903s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/stop_status.h
+[39.915s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/temperature.h
+[39.925s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/configure_mcu.h
+[39.935s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__functions.h
+[39.945s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__struct.h
+[39.955s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__type_support.h
+[39.965s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/set_pinout__functions.h
+[39.974s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/set_pinout__struct.h
+[39.984s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/set_pinout__type_support.h
+[39.994s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/set_pinout.h
+[40.004s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/library_path.sh
+[40.016s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/library_path.dsv
+[40.027s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/display_status__rosidl_typesupport_fastrtps_c.h
+[40.037s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__rosidl_typesupport_fastrtps_c.h
+[40.047s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__rosidl_typesupport_fastrtps_c.h
+[40.057s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__rosidl_typesupport_fastrtps_c.h
+[40.067s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_c.h
+[40.076s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__rosidl_typesupport_fastrtps_c.h
+[40.086s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_command__rosidl_typesupport_fastrtps_c.h
+[40.096s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_state__rosidl_typesupport_fastrtps_c.h
+[40.107s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__rosidl_typesupport_fastrtps_c.h
+[40.118s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__rosidl_typesupport_fastrtps_c.h
+[40.128s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+[40.138s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__rosidl_typesupport_fastrtps_c.h
+[40.148s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_c.h
+[40.158s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[40.167s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__rosidl_typesupport_fastrtps_c.h
+[40.177s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/set_pinout__rosidl_typesupport_fastrtps_c.h
+[40.188s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/display_status__builder.hpp
+[40.198s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/display_status__struct.hpp
+[40.209s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/display_status__traits.hpp
+[40.220s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/display_status__type_support.hpp
+[40.231s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__builder.hpp
+[40.242s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__struct.hpp
+[40.252s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__traits.hpp
+[40.261s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__type_support.hpp
+[40.271s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__builder.hpp
+[40.281s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__struct.hpp
+[40.291s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__traits.hpp
+[40.301s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__type_support.hpp
+[40.313s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__builder.hpp
+[40.323s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__struct.hpp
+[40.333s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__traits.hpp
+[40.343s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__type_support.hpp
+[40.353s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__builder.hpp
+[40.363s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__struct.hpp
+[40.373s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__traits.hpp
+[40.383s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__type_support.hpp
+[40.393s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__builder.hpp
+[40.404s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__struct.hpp
+[40.415s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__traits.hpp
+[40.426s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__type_support.hpp
+[40.436s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_command__builder.hpp
+[40.446s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_command__struct.hpp
+[40.456s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_command__traits.hpp
+[40.466s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_command__type_support.hpp
+[40.476s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_state__builder.hpp
+[40.486s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_state__struct.hpp
+[40.495s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_state__traits.hpp
+[40.506s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_state__type_support.hpp
+[40.517s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__builder.hpp
+[40.527s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__struct.hpp
+[40.537s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__traits.hpp
+[40.547s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__type_support.hpp
+[40.557s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__builder.hpp
+[40.567s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__struct.hpp
+[40.577s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__traits.hpp
+[40.587s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__type_support.hpp
+[40.597s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__builder.hpp
+[40.608s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__struct.hpp
+[40.619s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__traits.hpp
+[40.629s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__type_support.hpp
+[40.639s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__builder.hpp
+[40.648s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__struct.hpp
+[40.658s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__traits.hpp
+[40.668s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__type_support.hpp
+[40.678s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/temperature__builder.hpp
+[40.688s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/temperature__struct.hpp
+[40.697s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/temperature__traits.hpp
+[40.708s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/temperature__type_support.hpp
+[40.719s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/display_status.hpp
+[40.729s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/drive.hpp
+[40.739s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/drive_feedback.hpp
+[40.749s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/fans.hpp
+[40.759s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/feedback.hpp
+[40.768s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/lights.hpp
+[40.778s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/pinout_command.hpp
+[40.788s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/pinout_state.hpp
+[40.798s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/power.hpp
+[40.808s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rgb.hpp
+[40.819s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[40.829s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/status.hpp
+[40.839s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/stop_status.hpp
+[40.849s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/temperature.hpp
+[40.859s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/configure_mcu.hpp
+[40.868s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__builder.hpp
+[40.878s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__struct.hpp
+[40.888s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__traits.hpp
+[40.897s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__type_support.hpp
+[40.908s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/set_pinout__builder.hpp
+[40.919s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/set_pinout__struct.hpp
+[40.929s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/set_pinout__traits.hpp
+[40.939s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/set_pinout__type_support.hpp
+[40.949s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/set_pinout.hpp
+[40.960s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/display_status__rosidl_typesupport_fastrtps_cpp.hpp
+[40.969s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__rosidl_typesupport_fastrtps_cpp.hpp
+[40.979s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[40.991s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__rosidl_typesupport_fastrtps_cpp.hpp
+[41.001s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[41.014s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__rosidl_typesupport_fastrtps_cpp.hpp
+[41.025s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_command__rosidl_typesupport_fastrtps_cpp.hpp
+[41.035s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_state__rosidl_typesupport_fastrtps_cpp.hpp
+[41.044s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__rosidl_typesupport_fastrtps_cpp.hpp
+[41.053s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__rosidl_typesupport_fastrtps_cpp.hpp
+[41.062s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[41.072s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__rosidl_typesupport_fastrtps_cpp.hpp
+[41.082s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_cpp.hpp
+[41.091s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[41.101s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__rosidl_typesupport_fastrtps_cpp.hpp
+[41.113s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/set_pinout__rosidl_typesupport_fastrtps_cpp.hpp
+[41.124s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/display_status__rosidl_typesupport_introspection_c.h
+[41.134s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__rosidl_typesupport_introspection_c.h
+[41.144s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__rosidl_typesupport_introspection_c.h
+[41.154s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__rosidl_typesupport_introspection_c.h
+[41.163s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__rosidl_typesupport_introspection_c.h
+[41.173s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__rosidl_typesupport_introspection_c.h
+[41.182s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_command__rosidl_typesupport_introspection_c.h
+[41.192s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_state__rosidl_typesupport_introspection_c.h
+[41.201s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__rosidl_typesupport_introspection_c.h
+[41.213s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__rosidl_typesupport_introspection_c.h
+[41.224s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__rosidl_typesupport_introspection_c.h
+[41.234s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__rosidl_typesupport_introspection_c.h
+[41.244s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/temperature__rosidl_typesupport_introspection_c.h
+[41.254s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[41.264s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__rosidl_typesupport_introspection_c.h
+[41.273s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/set_pinout__rosidl_typesupport_introspection_c.h
+[41.283s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/display_status__rosidl_typesupport_introspection_cpp.hpp
+[41.293s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive__rosidl_typesupport_introspection_cpp.hpp
+[41.303s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/drive_feedback__rosidl_typesupport_introspection_cpp.hpp
+[41.315s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/fans__rosidl_typesupport_introspection_cpp.hpp
+[41.326s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/feedback__rosidl_typesupport_introspection_cpp.hpp
+[41.337s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/lights__rosidl_typesupport_introspection_cpp.hpp
+[41.347s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_command__rosidl_typesupport_introspection_cpp.hpp
+[41.357s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/pinout_state__rosidl_typesupport_introspection_cpp.hpp
+[41.367s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/power__rosidl_typesupport_introspection_cpp.hpp
+[41.378s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/rgb__rosidl_typesupport_introspection_cpp.hpp
+[41.388s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[41.398s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/stop_status__rosidl_typesupport_introspection_cpp.hpp
+[41.411s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/msg/detail/temperature__rosidl_typesupport_introspection_cpp.hpp
+[41.421s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/configure_mcu__rosidl_typesupport_introspection_cpp.hpp
+[41.432s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/include/clearpath_platform_msgs/clearpath_platform_msgs/srv/detail/set_pinout__rosidl_typesupport_introspection_cpp.hpp
+[41.442s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/pythonpath.sh
+[41.453s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/pythonpath.dsv
+[41.464s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs-2.7.0-py3.12.egg-info/PKG-INFO
+[41.474s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs-2.7.0-py3.12.egg-info/SOURCES.txt
+[41.484s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs-2.7.0-py3.12.egg-info/dependency_links.txt
+[41.494s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs-2.7.0-py3.12.egg-info/top_level.txt
+[41.508s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/__init__.py
+[41.517s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_c.c
+[41.527s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[41.538s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/_clearpath_platform_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[41.548s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_c.so
+[41.558s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_fastrtps_c.so
+[41.568s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_introspection_c.so
+[41.578s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/__init__.py
+[41.589s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_display_status.py
+[41.599s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_display_status_s.c
+[41.612s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_drive.py
+[41.620s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_drive_feedback.py
+[41.630s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_drive_feedback_s.c
+[41.641s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_drive_s.c
+[41.651s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_fans.py
+[41.662s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_fans_s.c
+[41.672s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_feedback.py
+[41.682s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_feedback_s.c
+[41.693s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_lights.py
+[41.704s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_lights_s.c
+[41.717s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_pinout_command.py
+[41.728s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_pinout_command_s.c
+[41.738s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_pinout_state.py
+[41.748s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_pinout_state_s.c
+[41.759s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_power.py
+[41.769s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_power_s.c
+[41.780s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_rgb.py
+[41.790s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_rgb_s.c
+[41.801s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_status.py
+[41.813s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_status_s.c
+[41.824s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_stop_status.py
+[41.835s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_stop_status_s.c
+[41.846s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_temperature.py
+[41.858s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_temperature_s.c
+[41.869s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/srv/__init__.py
+[41.880s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/srv/_configure_mcu.py
+[41.889s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/srv/_configure_mcu_s.c
+[41.900s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/srv/_set_pinout.py
+[41.911s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/srv/_set_pinout_s.c
+[41.923s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_fastrtps_c.so
+[41.923s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_introspection_c.so
+[41.923s] -- Up-to-date symlink: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/clearpath_platform_msgs_s__rosidl_typesupport_c.so
+[41.924s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/DisplayStatus.idl
+[41.934s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Drive.idl
+[41.944s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/DriveFeedback.idl
+[41.954s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Fans.idl
+[41.965s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Feedback.idl
+[41.975s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Lights.idl
+[41.985s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/PinoutCommand.idl
+[41.996s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/PinoutState.idl
+[42.007s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Power.idl
+[42.018s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/RGB.idl
+[42.028s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Status.idl
+[42.038s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/StopStatus.idl
+[42.049s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Temperature.idl
+[42.058s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/srv/ConfigureMcu.idl
+[42.068s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/srv/SetPinout.idl
+[42.079s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/DisplayStatus.msg
+[42.090s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Drive.msg
+[42.100s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/DriveFeedback.msg
+[42.113s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Fans.msg
+[42.123s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Feedback.msg
+[42.134s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Lights.msg
+[42.145s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/PinoutCommand.msg
+[42.158s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/PinoutState.msg
+[42.169s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Power.msg
+[42.179s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/RGB.msg
+[42.190s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Status.msg
+[42.200s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/StopStatus.msg
+[42.214s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/msg/Temperature.msg
+[42.223s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/srv/ConfigureMcu.srv
+[42.234s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/srv/SetPinout.srv
+[42.245s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/ament_index/resource_index/package_run_dependencies/clearpath_platform_msgs
+[42.256s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/ament_index/resource_index/parent_prefix_path/clearpath_platform_msgs
+[42.267s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/ament_prefix_path.sh
+[42.278s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/ament_prefix_path.dsv
+[42.289s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/path.sh
+[42.300s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/environment/path.dsv
+[42.311s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/local_setup.bash
+[42.324s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/local_setup.sh
+[42.335s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/local_setup.zsh
+[42.345s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/local_setup.dsv
+[42.355s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/package.dsv
+[42.365s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/ament_index/resource_index/packages/clearpath_platform_msgs
+[42.376s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/rosidl_cmake-extras.cmake
+[42.387s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[42.397s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[42.408s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[42.420s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[42.432s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[42.442s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[42.453s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgsConfig.cmake
+[42.462s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgsConfig-version.cmake
+[42.471s] -- Symlinking: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/package.xml
+[42.481s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_c.so
+[42.482s] -- Set non-toolchain portion of runtime path of "/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_c.so" to ""
+[42.482s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_c.so
+[42.483s] -- Set non-toolchain portion of runtime path of "/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[42.483s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.so
+[42.483s] -- Set non-toolchain portion of runtime path of "/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[42.483s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_c.so
+[42.484s] -- Set non-toolchain portion of runtime path of "/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_c.so" to ""
+[42.484s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_c.so
+[42.484s] -- Set non-toolchain portion of runtime path of "/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_c.so" to ""
+[42.484s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_cpp.so
+[42.485s] -- Set non-toolchain portion of runtime path of "/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[42.485s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_cpp.so
+[42.486s] -- Set non-toolchain portion of runtime path of "/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_typesupport_cpp.so" to ""
+[42.561s] Listing '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs'...
+[42.561s] Compiling '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/__init__.py'...
+[42.561s] Listing '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg'...
+[42.561s] Compiling '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/__init__.py'...
+[42.562s] Compiling '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_display_status.py'...
+[42.562s] Compiling '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_drive.py'...
+[42.562s] Compiling '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_drive_feedback.py'...
+[42.562s] Compiling '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_fans.py'...
+[42.562s] Compiling '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_feedback.py'...
+[42.562s] Compiling '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_lights.py'...
+[42.562s] Compiling '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_pinout_command.py'...
+[42.562s] Compiling '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_pinout_state.py'...
+[42.562s] Compiling '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_power.py'...
+[42.562s] Compiling '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_rgb.py'...
+[42.562s] Compiling '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_status.py'...
+[42.562s] Compiling '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_stop_status.py'...
+[42.562s] Compiling '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/msg/_temperature.py'...
+[42.562s] Listing '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/srv'...
+[42.562s] Compiling '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/srv/__init__.py'...
+[42.563s] Compiling '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/srv/_configure_mcu.py'...
+[42.563s] Compiling '/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/python3.12/site-packages/clearpath_platform_msgs/srv/_set_pinout.py'...
+[42.568s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_py.so
+[42.569s] -- Set non-toolchain portion of runtime path of "/home/robolab/clearpath_ws/install/clearpath_platform_msgs/lib/libclearpath_platform_msgs__rosidl_generator_py.so" to ""
+[42.569s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_generator_cExport.cmake
+[42.569s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_generator_cExport-noconfig.cmake
+[42.569s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[42.569s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[42.569s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_generator_cppExport.cmake
+[42.569s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[42.570s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[42.570s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_introspection_cExport.cmake
+[42.570s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[42.570s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_cExport.cmake
+[42.570s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[42.570s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[42.570s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[42.571s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_cppExport.cmake
+[42.571s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/clearpath_platform_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[42.571s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_generator_pyExport.cmake
+[42.571s] -- Installing: /home/robolab/clearpath_ws/install/clearpath_platform_msgs/share/clearpath_platform_msgs/cmake/export_clearpath_platform_msgs__rosidl_generator_pyExport-noconfig.cmake
+[42.573s] Invoked command in '/home/robolab/clearpath_ws/build/clearpath_platform_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robolab/clearpath_ws/build/clearpath_platform_msgs

@@ -1,0 +1,1 @@
+/home/robolab/clearpath_ws/build/clearpath_motor_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

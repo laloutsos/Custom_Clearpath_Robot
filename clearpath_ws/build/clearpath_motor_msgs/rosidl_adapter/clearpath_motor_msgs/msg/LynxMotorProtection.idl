@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from clearpath_motor_msgs/msg/LynxMotorProtection.msg
+// generated code does not contain a copyright notice
+
+
+module clearpath_motor_msgs {
+  module msg {
+    module LynxMotorProtection_Constants {
+      @verbatim (language="comment", text=
+        "Protection states")
+      const uint8 NORMAL = 0;
+      const uint8 THROTTLED = 1;
+      const uint8 OVERHEATED = 2;
+      const uint8 ERROR = 3;
+    };
+    @verbatim (language="comment", text=
+      "Number on the bus (CAN ID).")
+    struct LynxMotorProtection {
+      uint8 can_id;
+
+      @verbatim (language="comment", text=
+        "Name of joint controlled, or other identifier.")
+      string joint_name;
+
+      @verbatim (language="comment", text=
+        "Protection state")
+      uint8 state;
+    };
+  };
+};

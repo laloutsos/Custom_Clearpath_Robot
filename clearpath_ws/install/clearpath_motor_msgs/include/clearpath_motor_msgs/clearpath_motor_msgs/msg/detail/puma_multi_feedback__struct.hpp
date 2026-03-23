@@ -1,0 +1,1 @@
+/home/robolab/clearpath_ws/build/clearpath_motor_msgs/rosidl_generator_cpp/clearpath_motor_msgs/msg/detail/puma_multi_feedback__struct.hpp

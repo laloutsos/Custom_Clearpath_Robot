@@ -1,0 +1,1 @@
+/home/robolab/clearpath_ws/build/clearpath_manipulators_description/ament_cmake_environment_hooks/local_setup.sh

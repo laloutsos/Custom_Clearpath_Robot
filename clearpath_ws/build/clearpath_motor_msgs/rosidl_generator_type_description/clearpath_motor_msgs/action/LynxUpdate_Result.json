@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "clearpath_motor_msgs/action/LynxUpdate_Result",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 159,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "clearpath_motor_msgs/action/LynxUpdate_Result",
+      "hash_string": "RIHS01_1406a87151d2a555f4d4d0eda51d348e4a1877f46a546c3366bb653028914a64"
+    }
+  ]
+}

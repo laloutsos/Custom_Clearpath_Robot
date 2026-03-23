@@ -1,0 +1,1 @@
+/home/robolab/clearpath_ws/build/clearpath_manipulators_description/ament_cmake_core/clearpath_manipulators_descriptionConfig-version.cmake

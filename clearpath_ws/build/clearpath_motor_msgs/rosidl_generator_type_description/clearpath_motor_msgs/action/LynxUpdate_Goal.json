@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "clearpath_motor_msgs/action/LynxUpdate_Goal",
+      "fields": [
+        {
+          "name": "file",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "clearpath_motor_msgs/action/LynxUpdate_Goal",
+      "hash_string": "RIHS01_f8a5b4131c94f6622beaa7035bdede51f0dad38b8838e0954cba2d5498ae451a"
+    }
+  ]
+}
