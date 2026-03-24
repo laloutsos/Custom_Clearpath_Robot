@@ -1,4 +1,0 @@
-# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
-
-set(clearpath_motor_msgs_IDL_FILES "action/LynxCalibrate.idl;action/LynxUpdate.idl;msg/LynxDebug.idl;msg/LynxFeedback.idl;msg/LynxMotorProtection.idl;msg/LynxMultiDebug.idl;msg/LynxMultiFeedback.idl;msg/LynxMultiStatus.idl;msg/LynxStatus.idl;msg/LynxSystemProtection.idl;msg/PumaFeedback.idl;msg/PumaStatus.idl;msg/PumaMultiFeedback.idl;msg/PumaMultiStatus.idl")
-set(clearpath_motor_msgs_INTERFACE_FILES "action/LynxCalibrate.action;action/LynxUpdate.action;msg/LynxDebug.msg;msg/LynxFeedback.msg;msg/LynxMotorProtection.msg;msg/LynxMultiDebug.msg;msg/LynxMultiFeedback.msg;msg/LynxMultiStatus.msg;msg/LynxStatus.msg;msg/LynxSystemProtection.msg;msg/PumaFeedback.msg;msg/PumaStatus.msg;msg/PumaMultiFeedback.msg;msg/PumaMultiStatus.msg")

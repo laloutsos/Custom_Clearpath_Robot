@@ -1,1 +1,0 @@
-/home/robolab/clearpath_ws/src/clearpath_common/clearpath_diagnostics/launch/foxglove_bridge.launch.py

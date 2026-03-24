@@ -17,9 +17,11 @@ This guide explains how to set up an offboard computer for visualizing and inter
 
 ## Set Up the Environment for ROS 2 Jazzy
 
-Just run the following commands in the terminal one by one:
+- 1: Download the clearpath and clearpath_ws directories from this repository into your home directory. I recommend downloading this repo as a zipfile straight from Github, then extracting and copying only these folders to your home directory. Alternatively, you can clone this repository and move just these two folders to your home directory.
+  
+  ### Now Open a terminal in your home directory 
 
-- 1: Install Clearpath Packages
+- 2: Install Clearpath Packages
 ```bash
 wget https://packages.clearpathrobotics.com/public.key -O - | sudo apt-key add -
 sudo sh -c 'echo \
@@ -27,7 +29,7 @@ sudo sh -c 'echo \
     /etc/apt/sources.list.d/clearpath-latest.list'
 sudo apt-get update
 ```
-- 2: Update rosdep dependencies with the package built & hosted on Clearpath's servers
+- 3: Update rosdep dependencies with the package built & hosted on Clearpath's servers
 
 ```bash
 sudo wget \
@@ -36,25 +38,27 @@ https://raw.githubusercontent.com/clearpathrobotics/public-rosdistro/master/rosd
 
 rosdep update
 ```
-- 3: This package will install launch and configuration files for visualising and interacting with the robot
+*In case you have an error, just type ```sudo rosdep init``` and then try again step 3.*
+
+- 4: This package will install launch and configuration files for visualising and interacting with the robot
 ```bash
 sudo apt install ros-jazzy-clearpath-desktop
 ```
 
-- 4: Download clearpath and clearpath_ws folders from this repository and place it in your home directory, then type the following commands:
+- 5: Generate the setup.bash file:
 ```bash
 source /opt/ros/jazzy/setup.bash
 ros2 run clearpath_generator_common generate_bash -s ~/clearpath
 ```
 
 
-- 5: Installing Gazebo Harmonic and Clearpath SImulator. As usual type the following commands one by one 
+- 6: Installing Gazebo Harmonic and Clearpath SImulator. As usual type the following commands one by one 
  ```bash
 sudo apt-get install ros-jazzy-ros-gz
 sudo apt-get update
 sudo apt-get install ros-jazzy-clearpath-simulator
 ```
-- 6: Type the following commands in order to source the workspace of the robot  
+- 7: Type the following commands in order to source the workspace of the robot  
  ```bash
  source /opt/ros/jazzy/setup.bash
  cd clearpath_ws
@@ -62,7 +66,7 @@ sudo apt-get install ros-jazzy-clearpath-simulator
  source install/setup.bash
  ```
 ---
-## !!Important before simulating: Do the following once. By this way everything will work properly everytime you open the terminal without having to source ROS2 again and again. 
+## !!Important before simulating: Do the following once. By this way everything will work properly everytime you open a new terminal without having to source ROS2 again and again. 
 
 1: open bashrc by typing 
 ```bash
@@ -101,23 +105,41 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true
 ```
 
 --- 
-You need to use the command `ros2 topic list` to find the robot’s name along with `cmd_vel`, the topic for navigation and set this topic in Gazebo (the option is at the top right). After that, you will be able to drive it like a remote-controlled robot in the simulator. If this works, it means everything has been set up correctly.
+You need to use the command `ros2 topic list` to find the robot’s name along with `cmd_vel` which is the topic for navigation and then set this topic in Gazebo (the option is at the top right). After that, you will be able to drive it like a remote-controlled robot in the simulator. If this works, it means everything has been set up correctly.
 
 ---
 
 - Final Result: 
 
-![screnshot1](screenshot1.png)
-![screnshot2](screenshot2.png)
-![screnshot3](screenshot3.png)
+![screnshot1](images/image.png)
+
 ---
 
-# Bonus 
+# Important Additional Information 
+
+### Customizing the robot 
 If you want to make experiments and customise the robot, you can do it by editing the robot.yaml file inside the clearpath folder. Every time you make a change, after saving you need to type the following commands in order everything to work properly 
 
 ```bash
 ros2 run clearpath_generator_common generate_bash -s ~/clearpath
 source /opt/ros/jazzy/setup.bash
-
 ```
+If you want to add new meshes, I suggest you to add them in an existing directory that contains meshes. For example ```/clearpath_ws/src/clearpath_common/clearpath_mounts_description/meshes```. After that open a new terminal in clearpath_ws directory and type:
+```bash
+rm -rf build install log
+colcon build
+source install/setup.bash
+cd ..
+```
+
+### Clearpath Docs: 
+For detailed information on how everything works, please refer to the [official documentation](https://docs.clearpathrobotics.com/docs/ros/)
+
+### Always build in workspace directories, never src
+But if you do it by mistake just go to the folder you did ```colcon build``` by mistake, open the terminal and type:
+```bash
+rm -rf build install log
+```
+### Building in the same Workspace multiple times
+It is suggested to always do ```rm -rf build install log``` before you type ```colcon build``` in an already built workspace.
 

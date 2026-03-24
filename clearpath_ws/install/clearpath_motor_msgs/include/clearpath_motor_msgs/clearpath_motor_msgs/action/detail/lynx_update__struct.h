@@ -1,1 +1,0 @@
-/home/robolab/clearpath_ws/build/clearpath_motor_msgs/rosidl_generator_c/clearpath_motor_msgs/action/detail/lynx_update__struct.h

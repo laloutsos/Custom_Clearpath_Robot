@@ -1,1 +1,0 @@
-/home/robolab/clearpath_ws/src/clearpath_msgs/clearpath_platform_msgs/msg/Lights.msg

@@ -1,1 +1,0 @@
-/home/robolab/clearpath_ws/build/clearpath_mounts_description/ament_cmake_environment_hooks/local_setup.zsh

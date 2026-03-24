@@ -1,1 +1,0 @@
-/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_typesupport_introspection_c/clearpath_platform_msgs/msg/detail/pinout_command__rosidl_typesupport_introspection_c.h

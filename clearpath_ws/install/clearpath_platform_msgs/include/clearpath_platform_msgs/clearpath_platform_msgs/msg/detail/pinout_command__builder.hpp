@@ -1,1 +1,0 @@
-/home/robolab/clearpath_ws/build/clearpath_platform_msgs/rosidl_generator_cpp/clearpath_platform_msgs/msg/detail/pinout_command__builder.hpp

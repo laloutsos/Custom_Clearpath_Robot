@@ -1,1 +1,0 @@
-/home/robolab/clearpath_ws/src/clearpath_common/clearpath_control/launch/control.launch.py

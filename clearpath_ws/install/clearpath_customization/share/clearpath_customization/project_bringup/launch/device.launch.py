@@ -1,1 +1,0 @@
-/home/robolab/clearpath_ws/src/clearpath_common/clearpath_customization/project_bringup/launch/device.launch.py

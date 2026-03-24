@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/robolab/clearpath_ws/build/clearpath_diagnostics/clearpath_diagnostic_updater" "TARGETS" "clearpath_diagnostic_updater" "DESTINATION" "lib/clearpath_diagnostics")

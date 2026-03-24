@@ -1,1 +1,0 @@
-/home/robolab/clearpath_ws/build/clearpath_motor_msgs/rosidl_typesupport_introspection_c/clearpath_motor_msgs/msg/detail/puma_multi_feedback__rosidl_typesupport_introspection_c.h

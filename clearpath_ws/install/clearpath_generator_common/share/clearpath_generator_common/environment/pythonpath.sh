@@ -1,1 +1,0 @@
-/home/robolab/clearpath_ws/build/clearpath_generator_common/ament_cmake_environment_hooks/pythonpath.sh
