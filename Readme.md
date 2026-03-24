@@ -4,18 +4,10 @@ This guide explains how to set up an offboard computer for visualizing and inter
 
 ---
 
-## Operating System
-
-#### ROS 2 Jazzy
-
-- ROS 2 Jazzy **officially supports Ubuntu 24.04** as the Tier 1 operating system.  
-- For offboard computers, it is recommended to install **Ubuntu 24.04 Desktop**.  
-- Other operating systems are supported, but Ubuntu 24.04 provides the most reliable experience.
-- If you have not installed ROS 2 Jazzy, click [here](https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html) and follow the installation instructions.
-
----
-
 ## Set Up the Environment for ROS 2 Jazzy
+
+ROS 2 Jazzy **officially supports Ubuntu 24.04** as the Tier 1 operating system. If you have not installed ROS 2 Jazzy, click [here](https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html) and follow the installation instructions. Then follow the below steps one by one.
+
 
 - 1: Download the clearpath and clearpath_ws directories from this repository into your home directory. I recommend downloading this repo as a zipfile straight from Github, then extracting and copying only these folders to your home directory. Alternatively, you can clone this repository and move just these two folders to your home directory.
   
