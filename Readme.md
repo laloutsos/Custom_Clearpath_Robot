@@ -84,7 +84,7 @@ ros2 launch clearpath_gz simulation.launch.py rviz:=true
 ```
 
 - 2: Driving the robot:
-Install the teleop_twist_keyboard ROS 2 package on the robot computer or on an offboard computer:
+Install the teleop_twist_keyboard ROS 2 package:
  ```bash
 sudo apt-get update
 sudo apt-get install ros-jazzy-teleop-twist-keyboard
