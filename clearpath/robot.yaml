@@ -40,7 +40,7 @@ sensors:
     urdf_enabled: true
     launch_enabled: true
     parent: arm_0_end_effector_link
-    xyz: [-0.03, 0.0, 0.00]
+    xyz: [-0.045, 0.0, 0.009]
     rpy: [0.0, -1.5, 0.0]
     ros_parameters:
       intel_realsense:
@@ -102,20 +102,21 @@ manipulators:
         model: kinova_2f_lite
 links:
   mesh:
-    - name: mesh_name
+    - name: gps_and_lidar_mount
       parent: base_link
       xyz: [0.0, 0.0, 0.18]
       rpy: [0.0, 0.0, 0.0]
       visual:
-        path: /home/robolab/clearpath_ws/src/clearpath_common/clearpath_mounts_description/meshes/best.stl
+        package: clearpath_mounts_description
+        path: meshes/gps_and_lidar_mount.stl
 
-    # Still under development
-    #- name: realsense_grip
-      #parent: arm_0_end_effector_link
-      #xyz: [0.23, 0.0, 0.2]
-      #rpy: [0.0, 0.5, 0.0]
-      #visual:
-        #path: /home/nickl/clearpath_ws/src/clearpath_common/clearpath_mounts_description/meshes/realsense_grip.stl
+    - name: realsense_grip
+      parent: arm_0_end_effector_link
+      xyz: [0.038, 0.0, 0.0]
+      rpy: [-1.5708, 0.0, 1.5708]
+      visual:
+        package: clearpath_mounts_description
+        path: meshes/realsense_bracket.stl
 
 
 mounts:
