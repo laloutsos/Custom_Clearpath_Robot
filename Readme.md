@@ -89,9 +89,13 @@ ROS 2 Jazzy **officially supports Ubuntu 24.04** as the Tier 1 operating system.
   #### After setting up, You can immediately  drive the robot with two differnet ways
 
 - A: just copy and paste ```/j100_0000/cmd_vel``` into the top-right corner of the Gazebo simulation under the “Topics” section. 
-![cmd_vel](images/cmd_vel.png)
-Now you can drive the robot either with buttons or your keyboard
-![drive](images/drive.png)
+  
+  ![cmd_vel](images/cmd_vel.png)
+
+
+  Now you can drive the robot either with buttons or your keyboard
+
+  ![drive](images/drive.png)
 ---
 - B: Running the teleop_twist_keyboard node allows you to manually control the robot using your keyboard.
 Without it, the robot may still move in the simulation using its default controllers or plugins, but you won’t have direct, interactive control.
