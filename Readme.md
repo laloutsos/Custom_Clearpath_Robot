@@ -88,28 +88,28 @@ ROS 2 Jazzy **officially supports Ubuntu 24.04** as the Tier 1 operating system.
 
   #### After setting up, You can immediately  drive the robot with two differnet ways
 
-- A: just copy and paste ```/j100_0000/cmd_vel``` into the top-right corner of the Gazebo simulation under the “Topics” section. 
-  
-  ![cmd_vel](images/cmd_vel.png)
+  - A: just copy and paste ```/j100_0000/cmd_vel``` into the top-right corner of the Gazebo simulation under the “Topics” section. 
+    
+    ![cmd_vel](images/cmd_vel.png)
 
 
-  Now you can drive the robot either with buttons or your keyboard
+    Now you can drive the robot either with buttons or your keyboard
 
-  ![drive](images/drive.png)
----
-- B: Running the teleop_twist_keyboard node allows you to manually control hardcoded via the terminal.
+    ![drive](images/drive.png)
+  ---
+  - B: Running the teleop_twist_keyboard node allows you to manually control hardcoded via the terminal.
 
-  Install the teleop_twist_keyboard ROS 2 package:
-  ```bash
-  sudo apt-get update
-  sudo apt-get install ros-jazzy-teleop-twist-keyboard
+    Install the teleop_twist_keyboard ROS 2 package:
+    ```bash
+    sudo apt-get update
+    sudo apt-get install ros-jazzy-teleop-twist-keyboard
 
-  ```
-  Once installed run the code: 
-  ```bash
-  ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true
+    ```
+    Once installed run the code: 
+    ```bash
+    ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true
 
-  ``` 
+    ``` 
 
 
 ---
