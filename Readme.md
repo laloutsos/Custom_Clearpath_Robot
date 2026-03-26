@@ -97,8 +97,7 @@ ROS 2 Jazzy **officially supports Ubuntu 24.04** as the Tier 1 operating system.
 
   ![drive](images/drive.png)
 ---
-- B: Running the teleop_twist_keyboard node allows you to manually control the robot using your keyboard.
-Without it, the robot may still move in the simulation using its default controllers or plugins, but you won’t have direct, interactive control.
+- B: Running the teleop_twist_keyboard node allows you to manually control hardcoded via the terminal.
 
   Install the teleop_twist_keyboard ROS 2 package:
   ```bash
