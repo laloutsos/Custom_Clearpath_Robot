@@ -110,8 +110,6 @@ ROS 2 Jazzy **officially supports Ubuntu 24.04** as the Tier 1 operating system.
     ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true
 
     ``` 
-
-
 ---
 
 ## How the Robot must look like in your Simulation: 
@@ -119,35 +117,10 @@ ROS 2 Jazzy **officially supports Ubuntu 24.04** as the Tier 1 operating system.
 ![screnshot1](images/image.png)
 
 ---
-
-# More on this: Autonomous Driving with Nav2
-With Nav2, the robot creates a map of the environment so it knows exactly where it is and its orientation. By manually driving the robot around, it detects obstacles and updates the map. Once the robot has recorded the environment, it can navigate on its own to any location, as long as you tell it where to go. Essentially, it “learns” the space first and then can move autonomously, avoiding obstacles and following the planned path. Follow the below steps in order to set it up and experiment with it:
-
-- Note: Try using terminator instead of the system's terminal, it is much better for running multiple windows. You can install it by typing in your terminal 
-  ```bash
-  sudo apt update
-  sudo apt install terminator
-  ```
-  Click [here](https://github.com/spabinger/terminator-cheat-sheet) to see how to use it. 
-
-- 1: To install the package, run: 
-  ```bash
-  sudo apt-get update
-  sudo apt-get install ros-jazzy-clearpath-nav2-demos
-  ```
-- 2: Now open 4 new terminal windows and type one command in each terminal:
-  ```bash
-    # Terminal 1 
-    ros2 launch clearpath_gz simulation.launch.py rviz:=true
-    # Terminmal 2
-    ros2 launch clearpath_nav2_demos nav2.launch.py scan_topic:=/j100_0000/sensors/lidar3d_0/scan use_sim_time:=true setup_path:=clearpath
-    # Terminal 3 
-    ros2 launch clearpath_nav2_demos slam.launch.py scan_topic:=/j100_0000/sensors/lidar3d_0/scan use_sim_time:=true setup_path:=clearpath
-    # Terminal 4
-    ros2 launch clearpath_viz view_navigation.launch.py namespace:=/j100_0000 use_sim_time:=true
-  ```
-
 # Important Additional Information 
+
+- ### More about this
+  Go to ```Custom_Jackal_J100_Tutorials``` directory of this repo for more tutorials and capabilities.
 
 - ### Customizing the robot 
   If you want to make experiments and customise the robot, you can do it by editing the robot.yaml file inside the clearpath folder. Every time you make a change, after saving you need to type the following commands in order everything to work properly 
@@ -174,4 +147,12 @@ With Nav2, the robot creates a map of the environment so it knows exactly where 
   ```
 - ### Building in the same Workspace multiple times
   It is suggested to always do ```rm -rf build install log``` before you type ```colcon build``` in an already built workspace.
+
+- ### Terminator 
+  Try using terminator instead of the system's terminal, it is much better for running multiple windows. You can install it by typing in your terminal 
+  ```bash
+  sudo apt update
+  sudo apt install terminator
+  ```
+  Click [here](https://github.com/spabinger/terminator-cheat-sheet) to see how to use it. 
 
