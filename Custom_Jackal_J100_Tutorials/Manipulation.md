@@ -50,7 +50,7 @@
 
       ![img](/images/man_final.png)
 
-      > Remember that you can exaxtly the same with velocities and accelerations instead of straight giving the desired position.
+      > Remember that you can do exaxtly the same with velocities and accelerations instead of straight giving the desired position.
 
   - B: **Gripper**
       
