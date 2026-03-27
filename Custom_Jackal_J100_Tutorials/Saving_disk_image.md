@@ -35,6 +35,7 @@
     ```
 
 # Recovering 
+> **CAUTION**: These commands fully ovewrite anything stored in the robot's disk drive.  
 - 1: Unzip and restore root 
   ```bash
   gunzip -c j100_root.img.gz | ssh administrator@REMOTE "echo PASSWORD | sudo -S dd of=/dev/sda2 bs=8M conv=noerror,sync"
