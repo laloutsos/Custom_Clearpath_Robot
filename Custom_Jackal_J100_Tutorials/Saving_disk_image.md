@@ -29,8 +29,8 @@
 
 - Step 3: Now, if you want you can compress those files and transfer them into a flash drive
     ```bash
-    j100_root.img.gz
-    j100_efi.img.gz
+    gzip j100_root.img
+    gzip j100_efi.img
     ```
 
 # Recovering 
