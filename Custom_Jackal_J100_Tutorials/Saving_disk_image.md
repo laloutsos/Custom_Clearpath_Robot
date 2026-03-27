@@ -13,6 +13,7 @@
   ```/dev/sda1``` and ```/dev/sda2```. The one is for booting up the system and the other one is the Storage of the computer.
 
 - Step 2: Open 2 new terminal windows and start the transfering process by typing(change 'your_password' with the robot's computer password): 
+  - Note: You may still be asked for password.
   ```bash
   # Terminal 1
   ssh administrator@cpr-j100-0710 "echo your_password | sudo -S dd if=/dev/sda1 bs=8M conv=noerror,sync" | pv > ~/j100_efi.img
