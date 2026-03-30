@@ -77,18 +77,24 @@ ROS 2 Jazzy **officially supports Ubuntu 24.04** as the Tier 1 operating system.
   **Now every time you open the terminal ROS2 is sourced automatically**
 
 ## Simulate
+> IF YOU ARE USING UBUNTU IN AN EMULATOR AND NOT NATIVELY, GO TO [Setup Lighter Gazebo Simulation Guide](./Custom_Jackal_J100_Tutorials/Lighter_Simulation.md) and follow the instructions. Once you finished, return here.
+> 
 **Having done the above, open a new terminal and do the following** 
 
 - 1: Launching the simulator along with rviz. (optional argument) 
   ```bash
+  # Use this command if you are using Ubuntu Natively.
   ros2 launch clearpath_gz simulation.launch.py rviz:=true
+
+  # Use this command if you completed the Lighter Gazebo Simulation Guide
+  ros2 launch clearpath_gz cse_simulation.launch.py rviz:=true world:=empty
   ```
 
 - 2: Driving the robot:
 
-  #### After setting up, You can immediately  drive the robot with two differnet ways
+  #### After setting up, You can immediately  drive the robot.
 
-  - A: just copy and paste ```/j100_0000/cmd_vel``` into the top-right corner of the Gazebo simulation under the “Topics” section. 
+  Just copy and paste ```/j100_0000/cmd_vel``` into the top-right corner of the Gazebo simulation under the “Topics” section. 
     
     ![cmd_vel](images/cmd_vel.png)
 
@@ -96,20 +102,7 @@ ROS 2 Jazzy **officially supports Ubuntu 24.04** as the Tier 1 operating system.
     Now you can drive the robot either with buttons or your keyboard
 
     ![drive](images/drive.png)
-  ---
-  - B: Running the teleop_twist_keyboard node allows you to manually control hardcoded via the terminal.
 
-    Install the teleop_twist_keyboard ROS 2 package:
-    ```bash
-    sudo apt-get update
-    sudo apt-get install ros-jazzy-teleop-twist-keyboard
-
-    ```
-    Once installed run the code: 
-    ```bash
-    ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true
-
-    ``` 
 ---
 
 ## How the Robot must look like in your Simulation: 

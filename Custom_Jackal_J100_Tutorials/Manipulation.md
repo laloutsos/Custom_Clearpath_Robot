@@ -22,7 +22,7 @@
     
     - 3: We can see the actual names of the gripper and the joints by typing in the terminal: 
       ```bash
-      rostopic echo /j100_0000/platform/joint_states
+      ros2 topic echo /j100_0000/platform/joint_states
       ```
 
       ![img](/images/joint_names.png)
@@ -31,7 +31,7 @@
 
       ![img](/images/visual_joints.png)
 
-      Now that we knpw everything, we can controll the joints via the terminal by typing for example:
+      Now that we know everything, we can controll the joints via the terminal by typing for example:
       ```bash
       ros2 topic pub --once /j100_0000/arm_0_joint_trajectory_controller/joint_trajectory trajectory_msgs/msg/JointTrajectory "
       joint_names:
