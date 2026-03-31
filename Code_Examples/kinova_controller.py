@@ -32,9 +32,7 @@ class KinovaControllerNode(Node):
 
         point.positions = positions
 
-        point._time_from_start.sec = duration_sec
-
-        point.time_from_start.nanosec = 0
+        point.time_from_start.sec = duration_sec
 
         msg.points.append(point)
         self.arm_pub.publish(msg)
@@ -43,7 +41,7 @@ class KinovaControllerNode(Node):
         if self.sent:
             return
         
-        self.send_joint_positions([0.5, 0.3, 0.2, 0.4, 0.4, 0.6], 3)
+        self.send_joint_positions([0.5, 0.3, 0.2, 0.4, 0.3, 0.6], 3)
 
         self.get_logger().info("Command sent")
         self.sent = True
