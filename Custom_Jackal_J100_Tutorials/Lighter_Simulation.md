@@ -1,7 +1,7 @@
 # How to set up a Lighter Clearpath Gazebo World in Ubuntu
 ### I created 3 custom files that you need to install in order to avoid simulating your robot in a heavy enviroment. Just follow the below instructions.
 
-- 1: Move/Copy ```cse_simulation.launch.py``` and ```empty.sdf``` to your home directory
+- 1: Download from this repository and then move/copy ```cse_simulation.launch.py``` and ```empty.sdf``` to your home directory
 - 2: Open a terminal window 
 - 3: Type the below command 
   ```bash

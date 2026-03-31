@@ -52,7 +52,7 @@
 
       > Remember that you can do exaxtly the same with velocities and accelerations instead of straight giving the desired position.
 
-      **You can see a basic script controlling the manipulator written in python [here](./Code_Examples/kinova_controller.py)**
+      **You can see a basic script controlling the manipulator written in python [here]([./Code_Examples/kinova_controller.py](https://github.com/laloutsos/Custom_Clearpath_Robot/blob/main/Code_Examples/kinova_controller.py))**
 
   - B: **Gripper**
       
@@ -79,7 +79,7 @@
 
         **Note:** If you run the same command with ```position: 0.0``` the gripper will open again and come back to the state where it was at the start of the simulation.
 
-        **You can see a basic script controlling the gripper written in python [here](./Code_Examples/gripper_controller.py)**
+        **You can see a basic script controlling the gripper written in python [here](https://github.com/laloutsos/Custom_Clearpath_Robot/blob/main/Code_Examples/gripper_controller.py)**
 ---
 ## Controlling the manipulator with Moveit
 Open 3 Terminal Windows in your home directory and type one command in each terminal:
