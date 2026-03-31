@@ -78,6 +78,8 @@
         ![img](/images/closed_gripper.png)
 
         **Note:** If you run the same command with ```position: 0.0``` the gripper will open again and come back to the state where it was at the start of the simulation.
+
+        **You can see a basic script controlling the gripper written in python [here](./Code_Examples/gripper_controller.py)**
 ---
 ## Controlling the manipulator with Moveit
 Open 3 Terminal Windows in your home directory and type one command in each terminal:
