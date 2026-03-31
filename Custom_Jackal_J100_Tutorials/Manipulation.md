@@ -87,7 +87,7 @@ ros2 launch clearpath_gz simulation.launch.py setup_path:=$HOME/clearpath
 ros2 launch clearpath_manipulators moveit.launch.py setup_path:=$HOME/clearpath use_sim_time:=true
 
 # Terminal 3 
-ros2 launch clearpath_viz view_moveit.launch.py namespace:=a200_0000 use_sim_time:=True
+ros2 launch clearpath_viz view_moveit.launch.py namespace:=j100_0000 use_sim_time:=True
 ```
 
 ## Plan and execute motion in Rviz 
