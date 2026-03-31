@@ -52,6 +52,8 @@
 
       > Remember that you can do exaxtly the same with velocities and accelerations instead of straight giving the desired position.
 
+      **You can see a basic script controlling the manipulator written in python [here](./Code_Examples/kinova_controller.py)**
+
   - B: **Gripper**
       
       - 1: The gripper is controled through actions: 
