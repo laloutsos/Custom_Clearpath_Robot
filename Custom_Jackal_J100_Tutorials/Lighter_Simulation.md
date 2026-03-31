@@ -8,7 +8,7 @@
   sudo cp ~/cse_simulation.launch.py /opt/ros/jazzy/share/clearpath_gz/launch/
   ```
 
-    **The remaining steps are optional, but they make the simulation even lighter in order to avoid errors and crashes by disabling all components excluding the jackal and the kinova gen3 lite**
+    **The remaining steps are optional, but they make the simulation even lighter in order to avoid errors and crashes by disabling all components excluding  jackal and kinova gen3 lite**
 - 4: Go to ```clearpath``` directory, rename ```robot.yaml``` to anything you want and then and rename ```light_robot.yaml``` to ```robot.yaml```.
 - 5: return to your home directory, open a new terminal and type 
   ```
