@@ -77,7 +77,7 @@ ROS 2 Jazzy **officially supports Ubuntu 24.04** as the Tier 1 operating system.
   **Now every time you open the terminal ROS2 is sourced automatically**
 
 ## Simulate
-> IF YOU ARE USING UBUNTU IN AN EMULATOR AND NOT NATIVELY, GO TO [Setup Lighter Gazebo Simulation Guide](./Custom_Jackal_J100_Tutorials/Lighter_Simulation.md) and follow the instructions. Once you finished, return here.
+> IF YOU ARE USING UBUNTU IN AN EMULATOR AND NOT NATIVELY, GO TO [Setup Lighter  Gazebo World Guide](./Custom_Jackal_J100_Tutorials/Lighter_Simulation.md) and follow the instructions. Once you finished, return here.
 > 
 **Having done the above, open a new terminal and do the following** 
 

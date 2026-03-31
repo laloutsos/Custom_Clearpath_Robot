@@ -1,4 +1,4 @@
-# How to set up Lighter Gazebo emulation in Ubuntu
+# How to set up Lighter Clearpath Gazebo World in Ubuntu
 ### I created 3 custom files that you need to install in order to avoid simulating your robot in a heavy enviroment. Just follow the below instructions.
 
 - 1: Move/Copy ```cse_simulation.launch.py``` and ```empty.sdf``` to your home directory
