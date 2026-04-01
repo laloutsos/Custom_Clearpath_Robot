@@ -112,9 +112,6 @@ ROS 2 Jazzy **officially supports Ubuntu 24.04** as the Tier 1 operating system.
 ---
 # Important Additional Information 
 
-- ### More about this
-  Go to ```Custom_Jackal_J100_Tutorials``` directory of this repo for more tutorials and capabilities.
-
 - ### Customizing the robot 
   If you want to make experiments and customise the robot, you can do it by editing the robot.yaml file inside the clearpath folder. Every time you make a change, after saving you need to type the following commands in order everything to work properly 
 
@@ -148,4 +145,12 @@ ROS 2 Jazzy **officially supports Ubuntu 24.04** as the Tier 1 operating system.
   sudo apt install terminator
   ```
   Click [here](https://github.com/spabinger/terminator-cheat-sheet) to see how to use it. 
+# Custom Jackal J100 Tutorials contents
 
+| # | Topic                  | Description                                                                 | Notes                               |
+|---|--------------------------------|-----------------------------------------------------------------------------|-------------------------------------|
+| ● | Autonomous Driving with Nav2| This section describes how to set up Nav2 for mapping and autonomous navigation. It also lists the required commands to run the simulation and navigation system. | See [folder](/Custom_Jackal_J100_Tutorials/Autonomous_Driving_With_Nav2.md) for full code & examples |
+| ● | FLir Camera with YOLO | This section describes how to integrate YOLO with the J100’s cameras by connecting it to the FLIR image topic. I also provide the required commands. | See [folder](Custom_Jackal_J100_Tutorials/J100_YOLO.md) for full code and execution examples |
+| ● | Lighter Gazebo Environment | In this section I explain how to set up a lighter Gazebo simulation environment by replacing default files and optionally simplifying the robot configuration.  | See [folder](/Custom_Jackal_J100_Tutorials/Lighter_Simulation.md) for full code and execution examples |
+| ● | Kinova Manipulator | Ι explain how to control the Kinova Gen3 Lite manipulator in simulation using ROS 2 topics, actions, and MoveIt. It includes step-by-step commands for controlling joints and the gripper, as well as planning and executing motions in RViz.  | See [folder](/Custom_Jackal_J100_Tutorials/Manipulation.md) for full code and execution examples |
+| ● | Saving Disk Image | In this section I describe how to create a full disk image of the robot for backup and how to safely restore it using a live USB.| See [folder](/Custom_Jackal_J100_Tutorials/Saving_disk_image.md) for full code and execution examples |
