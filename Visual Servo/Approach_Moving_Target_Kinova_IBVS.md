@@ -28,7 +28,7 @@ $x' = \frac{1}{Z}X' - \frac{X Z'}{Z^2} = \frac{X'Z - XZ'}{Z^2}$  : (1)
 $\ x = \frac{X}{Z} \Rightarrow X = xZ$ : (2)
 
 From (1) and (2) we have the final result: 
-$ x' = \frac{x' - xZ'}{Z}$
+$x' = \frac{x' - xZ'}{Z}$
 
 Same procedure for y: $ y' = \frac{y' - yZ'}{Z}$
 
