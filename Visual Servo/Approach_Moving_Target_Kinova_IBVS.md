@@ -30,7 +30,7 @@ $\ x = \frac{X}{Z} \Rightarrow X = xZ$ : (2)
 From (1) and (2) we have the final result: 
 $x' = \frac{x' - xZ'}{Z}$
 
-Same procedure for y: $ y' = \frac{y' - yZ'}{Z}$
+Same procedure for y: $y' = \frac{y' - yZ'}{Z}$
 
 ## 4: Computing the Interraction matrix 
 
@@ -52,10 +52,10 @@ $y' = -\frac{V_y}{Z} + \frac{yV_z}{Z} + (1+y^2)\omega_x - xy\omega_y - x\omega_z
 Now we can extract the Interaction Matrix: 
 
 $L_s =
-\begin{bmatrix}
--\frac{1}{Z} & 0 & \frac{x}{Z} & xy & -(1+x^2) & y \\
-0 & -\frac{1}{Z} & \frac{y}{Z} & 1+y^2 & -xy & -x
-\end{bmatrix}$
+\left[
+\left[-\frac{1}{Z},\ 0,\ \frac{x}{Z},\ xy,\ -(1+x^2),\ y\right],\ 
+\left[0,\ -\frac{1}{Z},\ \frac{y}{Z},\ 1+y^2,\ -xy,\ -x\right]
+\right]^T$
 
 and the velocity of the camera:
 
