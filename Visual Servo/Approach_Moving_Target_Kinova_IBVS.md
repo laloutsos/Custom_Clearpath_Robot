@@ -45,21 +45,21 @@ $[X', Y', Z']^T = [-V_x - (\omega_y Z - \omega_z Y),\ -V_y - (\omega_z X - \omeg
 
 Next,we replace (3) into x' and y' and after some computations we have:
 
-$x' = -\frac{V_x}{Z} + \frac{xV_z}{Z} + xy\omega_x - (1+x^2)\omega_y + y\omega_z$
+$$x' = -\frac{V_x}{Z} + \frac{xV_z}{Z} + xy\omega_x - (1+x^2)\omega_y + y\omega_z$$
 
-$y' = -\frac{V_y}{Z} + \frac{yV_z}{Z} + (1+y^2)\omega_x - xy\omega_y - x\omega_z$
+$$y' = -\frac{V_y}{Z} + \frac{yV_z}{Z} + (1+y^2)\omega_x - xy\omega_y - x\omega_z$$
 
 Now we can extract the Interaction Matrix: 
 
-$L_s =
+$$L_s =
 \left[
 \left[-\frac{1}{Z},\ 0,\ \frac{x}{Z},\ xy,\ -(1+x^2),\ y\right],\ 
 \left[0,\ -\frac{1}{Z},\ \frac{y}{Z},\ 1+y^2,\ -xy,\ -x\right]
-\right]^T$
+\right]^T$$
 
 and the velocity of the camera:
 
-$V_c = [V_x, V_y, V_z, \omega_x, \omega_y, \omega_z]^T$
+$$V_c = [V_x, V_y, V_z, \omega_x, \omega_y, \omega_z]^T$$
 
 ## 5: Error Evolution Over Time
 
@@ -100,14 +100,14 @@ where $\lambda > 0$ is a gain parameter.
 
 Equating the two expressions:
 
-$$
+$
 -\lambda e = L_s V_c + \frac{\partial e}{\partial t}
-$$
+$
 
 Solving for $V_c$:
 
 $$
-V_c = -L_s^{-1}\left(\lambda e + \frac{\partial e}{\partial t}\right)
+V_c = -L_s^{-1}\left(\lambda e + \frac{\partial e}{\partial t}\right) 
 $$
 
 In practice, we do not always know whether the inverse exists or not, so we approximate it using the pseudo-inverse $L_s^+$.
@@ -123,8 +123,80 @@ L_s^+ = L_s^T (L_s L_s^T)^{-1}
 $$
 
 
-# TODO
 
-## 6: Estimating the moving target error term 
+## 6: Estimating the moving target error term
 
-## 7: Controlling the joints of the robot by knowing Vc
+The first problem that we encounter is that we do not know the exact value of the moving error term. Thus, we estimated as shown below:
+
+$$
+\hat{\left(\frac{\partial e}{\partial t}\right)} = e' - L_s V_{c,\text{prev}}
+$$
+where
+
+$$
+e' \approx \frac{e_k - e_{k-1}}{\Delta t}
+$$
+
+We know the value of Vc from the previous step of the algorithm. 
+
+
+
+
+
+
+## 7: Controlling the joints of the robot by knowing the velocity of the camera
+
+So what have achieved by now: We know what the camera velocity should be at each moment in time so that it approaches and maintains a specific distance from the moving target.
+
+Problem: We can send velocity commands only to the joints of the arm. The camera is mounted on the end effector of the arm. Therefore, we need to find a matrix that converts the camera velocity into the velocity of the end effector.
+
+By knowing Vc (Velocity of Camera) we can compute Vee (Velocity of end effector) as shown below: 
+
+$$V_{ee,k} = {}^{ee}V_c \, V_{c,k}$$
+
+$(^{ee}V_c)$ is the velocity transformation (twist) matrix that maps the camera velocity to the end-effector velocity. It encodes the relative pose between the camera and the end effector, including both rotation and translation.
+
+How to we find it? 
+
+The first thing we have to do is look at the connecntion between the frames in the simulation of the robot. In this custom jackal, the connection is: 
+
+**arm_0_end_effector -> camera_bottom_screw_frame -> camera_0_link**
+
+This means that the camera is not connected straight to the end effector but there is an in between connection: 
+
+$${}^{ee}T_c = {}^{ee}T_{bs}\,{}^{bs}T_c = (R, t)$$
+
+and now we finally have: 
+
+$${}^{ee}V_c =
+\begin{bmatrix}
+R & [t]_\times R \\
+0 & R
+\end{bmatrix}$$
+
+Now that we know the value of Vee, we have to connect it with the velocities of the joints:
+
+$$V_{ee} = J(q)\,\dot{q}$$
+
+We solve for q' and finally we have: 
+
+$$\dot{q} = J(q)^{+} V_{ee}$$
+
+where 
+
+$$J^{+} = J^{T}(J J^{T})^{-1}$$
+
+and 
+
+$$V_{ee} = {}^{ee}V_c \, V_{c,k}$$
+
+Finally we know the value:
+
+$$\dot{q} = [\dot{q}_1, \dot{q}_2, \dot{q}_3, \dot{q}_4, \dot{q}_5, \dot{q}_6]^T$$
+
+which is the command that we will send to the robot by a ros2 topic.
+
+
+
+
+
