@@ -100,9 +100,7 @@ where $\lambda > 0$ is a gain parameter.
 
 Equating the two expressions:
 
-$
--\lambda e = L_s V_c + \frac{\partial e}{\partial t}
-$
+$$ -\lambda e = L_s V_c + \frac{\partial e}{\partial t} $$
 
 Solving for $V_c$:
 
@@ -131,6 +129,7 @@ The first problem that we encounter is that we do not know the exact value of th
 $$
 \hat{\left(\frac{\partial e}{\partial t}\right)} = e' - L_s V_{c,\text{prev}}
 $$
+
 where
 
 $$
