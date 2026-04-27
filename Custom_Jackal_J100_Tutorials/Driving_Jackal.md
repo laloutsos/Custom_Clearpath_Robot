@@ -46,9 +46,7 @@ Twist twist
 
 ```
 
-This output describes a ROS2 `TwistStamped` message, which combines both motion information and reference metadata. 
-
-The `header` section contains the timestamp (sec and nanosec) indicating when the message was created, as well as the `frame_id`, which defines the coordinate frame the data refers to. This section is not needed and probably you will never need to publish these. 
+The `header` section contains the timestamp (sec and nanosec) indicating when the message was created, as well as the `frame_id`, which defines the coordinate frame the data refers to. This section is not needed and probably we will never need to publish these. 
 
 
  The `twist` section describes the actual motion of the robot: the `linear` vector (x, y, z) represents translational velocity in the three spatial directions, while the `angular` vector (x, y, z) represents rotational velocity around the three axes (roll, pitch, and yaw). In simple terms, this message tells us where the data is defined in space and time, and how the robot is moving and rotating at that exact moment. That's the actual message we want to publish and the only infomation the robot needs in order to move.
