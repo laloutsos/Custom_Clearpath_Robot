@@ -167,7 +167,7 @@ This means that the camera is not connected straight to the end effector but the
 
 $${}^{ee}T_c = {}^{ee}T_{bs}\,{}^{bs}T_c = (R, t)$$
 
-and now we finally have: 
+and now we finally have the Adjacent Matrix so that we can transform the velocities from frame to frame: 
 
 $${}^{ee}V_c =
 \begin{bmatrix}
@@ -225,6 +225,6 @@ To obtain the depth ( Z ), we use the depth image published as a ROS2 `Image` me
 
 Now we know the coordinates both in the 3d space and the image frame. The next step is to determine the desired coordinates of the target and then define error e
 
-Now that we know the coordinates both in 3D space and in the image frame, the next step is to determine the desired coordinates of the target and define the error ( e ) as the difference between the current and desired values.
 
 ### 2: Error e definition
+
