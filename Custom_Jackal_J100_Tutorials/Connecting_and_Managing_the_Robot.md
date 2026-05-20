@@ -61,6 +61,7 @@ Same as before, open a terminal and type:
 ros2 action send_goal /j100_0710/manipulators/arm_0_gripper_controller/gripper_cmd control_msgs/action/GripperCommand "{command: {position: 0.0, max_effort: 10.0}}" --feedback
 ```
 Result:
+
 ```
 Waiting for an action server to become available...
 Sending goal:
