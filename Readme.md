@@ -2,7 +2,9 @@
 
 This guide explains how to set up an offboard computer for visualizing and interacting with a custom Clearpath robot using **ROS 2 Jazzy**. 
 
----
+<div align="center">
+  <img src="images/jackal_photo_1.png" />
+</div>---
 
 ## Set Up the Environment for ROS 2 Jazzy
 
@@ -107,8 +109,9 @@ ROS 2 Jazzy **officially supports Ubuntu 24.04** as the Tier 1 operating system.
 
 ## How the Robot must look like in your Simulation: 
 
-![screnshot1](images/image.png)
-
+<div align="center">
+  <img src="images/image.png" />
+</div>
 
 # Custom Jackal J100 Tutorials contents
 
