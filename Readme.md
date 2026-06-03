@@ -4,7 +4,9 @@ This guide explains how to set up an offboard computer for visualizing and inter
 
 <div align="center">
   <img src="images/jackal_photo_1.png" />
-</div>---
+</div>
+
+
 
 ## Set Up the Environment for ROS 2 Jazzy
 
