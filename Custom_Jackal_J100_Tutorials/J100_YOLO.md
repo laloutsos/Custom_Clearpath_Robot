@@ -99,3 +99,20 @@ At each cell I wrote:
 After making sure that the camera is up and running, I run the followwng once:
 
     ros2 launch yolo_bringup yolo.launch.py   input_image_topic:=/j100_0710/sensors/camera_1/color/image   yolo_encoding:=rgb8   threshold:=0.2   device:=cpu   model:=/home/robolab/best.pt
+
+## Running yolo via the robot's computer
+
+In a terminal type these commands:
+
+```bash
+#1
+export PYTHONPATH=$HOME/ros2_ws/.venv/lib/python3.12/site-packages:$PYTHONPATH
+
+#2
+ros2 launch yolo_bringup yolo.launch.py   input_image_topic:=/j100_0000/sensors/camera_1/color/image   yolo_encoding:=rgb8   threshold:=0.2   device:=cpu
+
+```
+
+### Result:
+
+![img](../images/yolo_via_the_robot.png)
